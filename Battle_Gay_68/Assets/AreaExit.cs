@@ -10,7 +10,7 @@ public class AreaExit : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.GetComponent<PlayerController>()) {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(sceneToLoad);
             SceneManagement.Instance.SetTransitionName(sceneTransitionName);
         }
     }
