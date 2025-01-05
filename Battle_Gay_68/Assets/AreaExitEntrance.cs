@@ -9,6 +9,7 @@ public class AreaExitEntrance : MonoBehaviour
         if (transitionName == SceneManagement.Instance.SceneTransitionName) {
             PlayerController.Instance.transform.position = this.transform.position;
             CameraController.Instance.SetPlayerCameraFollw();
+            UIFade.Instance.FadeToClear();
         }
     }
 }
