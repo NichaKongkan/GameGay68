@@ -1,25 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Numerics;
-using System.Xml.Serialization;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.Scripting.APIUpdating;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Singleton<PlayerController>
 {
     [SerializeField] private float moveSpeed = 1f;
 
     private PlayerControls playerControls;
     private UnityEngine.Vector2 movement;
     private Rigidbody2D rb;
-    private Animator myAnimatior;
+    private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
 
-    private void Awake() {
+    protected override void Awake() {
+        base.Awake();
+
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
-        myAnimatior = GetComponent<Animator>();
+        myAnimator = GetComponent<Animator>();
         mySpriteRender = GetComponent<SpriteRenderer>();
     }
 
@@ -37,8 +33,8 @@ public class PlayerController : MonoBehaviour
     private void PlayerInput() {
         movement = playerControls.Movement.Move.ReadValue<UnityEngine.Vector2>();
 
-        myAnimatior.SetFloat("moveX", movement.x);
-        myAnimatior.SetFloat("moveY", movement.y);
+        myAnimator.SetFloat("moveX", movement.x);
+        myAnimator.SetFloat("moveY", movement.y);
     }
     private void Move() {
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
