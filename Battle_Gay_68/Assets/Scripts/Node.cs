@@ -9,9 +9,9 @@ public class Node : MonoBehaviour
 
     public GameObject potion;
 
-    public void Initialize(bool _isUsable, GameObject _potions)
+    public Node(bool _isUsable, GameObject _potion)
     {
         isUsable = _isUsable;
-        potion = _potions;
+        potion = _potion;
     }
 }

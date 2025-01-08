@@ -6,12 +6,12 @@ using UnityEngine.InputSystem.Interactions;
 
 public class Potion : MonoBehaviour
 {
-    public PotionType postionType;
+    public PotionType potionType;
 
     public int xIndex;
     public int yIndex;
-
     public bool isMatched;
+
     private UnityEngine.Vector2 currentPos;
     private UnityEngine.Vector2 targetPos;
 

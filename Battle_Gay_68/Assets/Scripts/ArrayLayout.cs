@@ -1,18 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
-public class ArrayLayout : MonoBehaviour
+[System.Serializable]
+public class ArrayLayout
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	[System.Serializable]
+	public struct rowData
+	{
+		public bool[] row;
+	}
+
+	public rowData[] rows = new rowData[8]; //creates a grid with a Y of 8, ultimately controlled by the CustPropertyDrawer.cs
+
 }

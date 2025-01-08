@@ -162,6 +162,16 @@ MonoBehaviour:
   - {fileID: 846329068575914659, guid: 9f39ea50019c696468f26c18c2ae2a05, type: 3}
   - {fileID: 1785542592484594114, guid: a7247bb0fea4a254a89b229e9673e95f, type: 3}
   potionBoardGO: {fileID: 853031766}
+  arrayLayout:
+    rows:
+    - row: 000000000000
+    - row: 000000000000
+    - row: 000000000000
+    - row: 000000000000
+    - row: 000000000000
+    - row: 000000000000
+    - row: 000000000000
+    - row: 000000000000
 --- !u!4 &853031768
 Transform:
   m_ObjectHideFlags: 0
