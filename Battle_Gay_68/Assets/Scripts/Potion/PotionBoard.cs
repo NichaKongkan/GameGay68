@@ -5,8 +5,8 @@ using UnityEngine;
 public class PotionBoard : MonoBehaviour
 {
     //define the size of the board
-    public int width = 3;
-    public int height = 4;
+    public int width = 6;
+    public int height = 8;
     //define some spacing for board
     public float spacingX;
     public float spacingY;
@@ -159,7 +159,7 @@ public class PotionBoard : MonoBehaviour
         }
 
         RemoveAndRefill(potionsToRemove);
-        //GameManager.Instance.ProcessTurn(potionsToRemove.Count, _subtractMoves);
+        GameManager.Instance.ProcessTurn(potionsToRemove.Count, _subtractMoves);
         yield return new WaitForSeconds(0.4f);
 
         if (CheckBoard())

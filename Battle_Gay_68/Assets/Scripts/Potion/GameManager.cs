@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting.Generated.PropertyProviders;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -16,6 +18,11 @@ public class GameManager : MonoBehaviour
     public int points;
 
     public bool isGameEnded;
+    public bool isWin = false;
+
+    public TMP_Text pointsTxt;
+    public TMP_Text movesTxt;
+    public TMP_Text goalTxt;
 
     private void Awake() {
         Instance = this;
@@ -25,16 +32,21 @@ public class GameManager : MonoBehaviour
         moves = _moves;
         goal = _goal;
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
-        
+        pointsTxt.text = "Potions: " + points.ToString();
+        movesTxt.text = "Moves: " + moves.ToString();
+        goalTxt.text = "Goal: " + goal.ToString();
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            Debug.Log("Space bar");
+            WinGame();
+        }
+
+        if (isWin) {
+            WinGame();
+        }
     }
 
     public void ProcessTurn(int _pointsToGain, bool _subtractMoves) {
@@ -47,12 +59,17 @@ public class GameManager : MonoBehaviour
             //Display a victory screen
             backgroundPanel.SetActive(true);
             victoryPanel.SetActive(true);
+            PotionBoard.Instance.potionParent.SetActive(false);
+            isWin = true;
+            return;
+        
         }
         if (moves == 0) {
             //lose the game
             isGameEnded = true;
             backgroundPanel.SetActive(true);
-            victoryPanel.SetActive(true);
+            losePanel.SetActive(true);
+            PotionBoard.Instance.potionParent.SetActive(false);
             return;
         }
     }
