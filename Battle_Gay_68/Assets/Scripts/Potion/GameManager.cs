@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
         movesTxt.text = "Moves: " + moves.ToString();
         goalTxt.text = "Goal: " + goal.ToString();
 
-        if ((PlayerPrefs.GetInt("isWin" + puzzleID, 0) == 1 || moves == 0) && Input.GetKeyDown(KeyCode.Space)) {
+        if ((PlayerPrefs.GetInt("isWin_" + puzzleID) == 1 || moves == 0) && Input.GetKeyDown(KeyCode.Space)) {
             SceneManager.LoadScene("Sample1");
         }
     }
@@ -47,11 +47,12 @@ public class GameManager : MonoBehaviour
         if (_subtractMoves)
             moves--;
 
+
         if (points >= goal) {
             //win the game
-            PlayerPrefs.SetInt("isWin" + puzzleID, 1); // Save win status
+            PlayerPrefs.SetInt("isWin_" + puzzleID, 1); // Save win status
             PlayerPrefs.Save();
-            Debug.Log("Win Status Saved: " + PlayerPrefs.GetInt("isWin" + puzzleID, 0));
+            Debug.Log("Win" + puzzleID +"Status Saved: " + PlayerPrefs.GetInt("isWin_" + puzzleID));
 
             backgroundPanel.SetActive(true);
             victoryPanel.SetActive(true);
@@ -61,9 +62,9 @@ public class GameManager : MonoBehaviour
         }
         if (moves == 0) {
             //lose the game
-            PlayerPrefs.SetInt("isWin" + puzzleID, 0); // Save lose status
+            PlayerPrefs.SetInt("isWin_" + puzzleID, 0); // Save lose status
             PlayerPrefs.Save();
-            Debug.Log("Lose Status Saved: " + PlayerPrefs.GetInt("isWin" + puzzleID, 1));
+            Debug.Log("Lose Status Saved: " + PlayerPrefs.GetInt("isWin_" + puzzleID));
             
             backgroundPanel.SetActive(true);
             losePanel.SetActive(true);

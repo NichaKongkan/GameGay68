@@ -27879,7 +27879,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4989d4b982c807842b5f3d855c6d2e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   monsterID: 
+=======
+  monsterID: C
+>>>>>>> 3d3d440749ac7442ccf1900ff3bd8b7e638e41ef
 --- !u!1 &986326253
 GameObject:
   m_ObjectHideFlags: 3
@@ -28104,7 +28108,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4989d4b982c807842b5f3d855c6d2e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   monsterID: 
+=======
+  monsterID: A
+>>>>>>> 3d3d440749ac7442ccf1900ff3bd8b7e638e41ef
 --- !u!1001 &1199098398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28612,7 +28620,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4989d4b982c807842b5f3d855c6d2e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   monsterID: 
+=======
+  monsterID: B
+>>>>>>> 3d3d440749ac7442ccf1900ff3bd8b7e638e41ef
 --- !u!1 &1521408710
 GameObject:
   m_ObjectHideFlags: 0
