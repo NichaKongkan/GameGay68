@@ -13,12 +13,7 @@ public class GameManager : MonoBehaviour
     public GameObject victoryPanel;
     public GameObject losePanel;
 
-    public int goal;
-    public int moves;
-    public int points;
-
-    public bool isGameEnded;
-    public bool isWin = false;
+    public int goal, moves, points;
 
     public TMP_Text pointsTxt;
     public TMP_Text movesTxt;
@@ -39,34 +34,33 @@ public class GameManager : MonoBehaviour
         pointsTxt.text = "Potions: " + points.ToString();
         movesTxt.text = "Moves: " + moves.ToString();
         goalTxt.text = "Goal: " + goal.ToString();
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            Debug.Log("Space bar");
-            WinGame();
-        }
 
-        if (isWin) {
-            WinGame();
-        }
+        //if (backgroundPanel.activeSelf && Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    Debug.Log("[GameManager] Returning to Sample1");
+        //    PlayerPrefs.Save();
+        //    SceneManager.LoadScene("Sample1");
+        //}
     }
 
     public void ProcessTurn(int _pointsToGain, bool _subtractMoves) {
+        //PuzzleManager puzzleManager = new PuzzleManager();
+
         points += _pointsToGain;
         if (_subtractMoves)
             moves--;
         if (points >= goal) {
             //you've won the game
-            isGameEnded = true;
+            //puzzleManager.PuzzleWin();
             //Display a victory screen
             backgroundPanel.SetActive(true);
             victoryPanel.SetActive(true);
             PotionBoard.Instance.potionParent.SetActive(false);
-            isWin = true;
             return;
         
         }
         if (moves == 0) {
             //lose the game
-            isGameEnded = true;
             backgroundPanel.SetActive(true);
             losePanel.SetActive(true);
             PotionBoard.Instance.potionParent.SetActive(false);

@@ -8,42 +8,44 @@ public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] private int startingHealth = 2;
     public int currentHealth;
-    public static bool PuzzelWin = false;
-
 
     private void Start() {
         currentHealth = startingHealth;
+        
     }
 
-    void Update() {
-        if ((currentHealth <= 0) && PuzzelWin) {
-            Destroy(gameObject);
+    private void Update() {
+        if (currentHealth <= 0)
+        {
+            TeleportToPuzzel();
         }
     }
 
     public void TakeDamage(int damage) {
         currentHealth -= damage;
         Debug.Log(currentHealth);
-        TeleportToPuzzel();
+        MonsterController monsterController = GetComponent<MonsterController>();
+
+        if (monsterController != null) {
+            Debug.Log("Puzzle ID: " + monsterController.puzzleID);
+        } else {
+            Debug.Log("I don't see it");
+        }
+        
         //DetectDeath();
     }
 
     public void DetectDeath() {
-        //if ((currentHealth <= 0) && PuzzelWin) {
-        //    Destroy(gameObject);
-        //}
         Destroy(gameObject);
     }
 
     private void TeleportToPuzzel() {
-        if (currentHealth <= 0) {
-            SceneManager.LoadScene(1);
-        }
+        MonsterController monsterController = GetComponent<MonsterController>();
+
+        PlayerPrefs.Save();
+        SceneManager.LoadScene("monster" + monsterController.puzzleID);
     }
 
-    public static void SetPuzzelWin(bool winStatus) {
-        PuzzelWin = winStatus;
-    }
 
     
     
