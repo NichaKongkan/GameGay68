@@ -79459,7 +79459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4989d4b982c807842b5f3d855c6d2e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleID: C
+  monsterID: C
 --- !u!1 &986326253
 GameObject:
   m_ObjectHideFlags: 3
@@ -79684,7 +79684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4989d4b982c807842b5f3d855c6d2e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleID: A
+  monsterID: A
 --- !u!1001 &1199098398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80185,7 +80185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4989d4b982c807842b5f3d855c6d2e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleID: B
+  monsterID: B
 --- !u!1 &1521408710
 GameObject:
   m_ObjectHideFlags: 0

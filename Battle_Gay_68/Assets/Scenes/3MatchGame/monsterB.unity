@@ -285,6 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de7754cdfd51efd44a6468fe650acdc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleID: B
   backgroundPanel: {fileID: 1112727682}
   victoryPanel: {fileID: 1805020308}
   losePanel: {fileID: 435723635}
@@ -1874,7 +1875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3113e895046fc146b0ef2c935f391f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleIDs: []
+  puzzleID: 
 --- !u!4 &1442433006
 Transform:
   m_ObjectHideFlags: 0

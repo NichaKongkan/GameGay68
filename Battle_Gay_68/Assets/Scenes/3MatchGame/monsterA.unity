@@ -290,7 +290,7 @@ MonoBehaviour:
   victoryPanel: {fileID: 1805020308}
   losePanel: {fileID: 435723635}
   goal: 3
-  moves: 10
+  moves: 19
   points: 0
   pointsTxt: {fileID: 2070165120}
   movesTxt: {fileID: 1108604777}
