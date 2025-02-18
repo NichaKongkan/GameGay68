@@ -27,7 +27,7 @@ public class EnemyHealth : MonoBehaviour
         MonsterController monsterController = GetComponent<MonsterController>();
 
         if (monsterController != null) {
-            Debug.Log("Puzzle ID: " + monsterController.puzzleID);
+            Debug.Log("Puzzle ID: " + monsterController.monsterID);
         } else {
             Debug.Log("I don't see it");
         }
@@ -43,7 +43,7 @@ public class EnemyHealth : MonoBehaviour
         MonsterController monsterController = GetComponent<MonsterController>();
 
         PlayerPrefs.Save();
-        SceneManager.LoadScene("monster" + monsterController.puzzleID);
+        SceneManager.LoadScene("monster" + monsterController.monsterID);
     }
 
 

@@ -4,25 +4,24 @@ using UnityEngine;
 
 public class MonsterController : MonoBehaviour
 {
-    public string puzzleID;
+    public string monsterID;
 
     private void Start()
     {
-        /**
-        int puzzleStatus = PlayerPrefs.GetInt(puzzleID, 0);
-        Debug.Log($"[MonsterController] {puzzleID} status: {puzzleStatus}");
+        int monsterStatus = PlayerPrefs.GetInt(monsterID, 0);
+        Debug.Log($"[MonsterController] {monsterID} status: {monsterStatus}");
 
-        if (puzzleStatus == 1)
+        if (monsterStatus == 1)
         {
             gameObject.SetActive(false);
-            Debug.Log($"[MonsterController] {puzzleID} Monster hidden");
+            Debug.Log($"[MonsterController] {monsterID} Monster hidden");
         }
         else
         {
-            Debug.Log($"[MonsterController] {puzzleID} Monster visible");
+            Debug.Log($"[MonsterController] {monsterID} Monster visible");
         }
-        */
+        
 
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
     }
 }

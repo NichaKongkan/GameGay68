@@ -5,26 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class PuzzleManager : MonoBehaviour
 {
-    public string[] puzzleIDs;
+    public string puzzleID;
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {   
-            Debug.Log("GO to WIN");;
-            PuzzleWin();
-        }
+        GameManager gameManager = GetComponent<GameManager>();
+        
     }
 
-    public void PuzzleWin()
-    {
-        foreach (string id in puzzleIDs)
-        {
-            PlayerPrefs.SetInt(id, 1);
-            Debug.Log($"[PuzzleManager] {id} set to 1");
-        }
-        PlayerPrefs.Save();
-        Debug.Log("[PuzzleManager] PlayerPrefs saved");
-        SceneManager.LoadScene("Sample1");
-    }
 }
+
+/**
+if (Input.GetKeyDown(KeyCode.Space) && gameManager.isWin)
+        {   
+            Debug.Log("GO to WIN");;
+            
+        }
+
+*/

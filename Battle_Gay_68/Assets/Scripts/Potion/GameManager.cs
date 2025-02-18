@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
+    public string puzzleID;
     public GameObject backgroundPanel;
     public GameObject victoryPanel;
     public GameObject losePanel;
@@ -35,24 +36,23 @@ public class GameManager : MonoBehaviour
         movesTxt.text = "Moves: " + moves.ToString();
         goalTxt.text = "Goal: " + goal.ToString();
 
-        //if (backgroundPanel.activeSelf && Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    Debug.Log("[GameManager] Returning to Sample1");
-        //    PlayerPrefs.Save();
-        //    SceneManager.LoadScene("Sample1");
-        //}
+        if ((PlayerPrefs.GetInt("isWin" + puzzleID, 0) == 1 || moves == 0) && Input.GetKeyDown(KeyCode.Space)) {
+            SceneManager.LoadScene("Sample1");
+        }
     }
 
     public void ProcessTurn(int _pointsToGain, bool _subtractMoves) {
-        //PuzzleManager puzzleManager = new PuzzleManager();
 
         points += _pointsToGain;
         if (_subtractMoves)
             moves--;
+
         if (points >= goal) {
-            //you've won the game
-            //puzzleManager.PuzzleWin();
-            //Display a victory screen
+            //win the game
+            PlayerPrefs.SetInt("isWin" + puzzleID, 1); // Save win status
+            PlayerPrefs.Save();
+            Debug.Log("Win Status Saved: " + PlayerPrefs.GetInt("isWin" + puzzleID, 0));
+
             backgroundPanel.SetActive(true);
             victoryPanel.SetActive(true);
             PotionBoard.Instance.potionParent.SetActive(false);
@@ -61,6 +61,10 @@ public class GameManager : MonoBehaviour
         }
         if (moves == 0) {
             //lose the game
+            PlayerPrefs.SetInt("isWin" + puzzleID, 0); // Save lose status
+            PlayerPrefs.Save();
+            Debug.Log("Lose Status Saved: " + PlayerPrefs.GetInt("isWin" + puzzleID, 1));
+            
             backgroundPanel.SetActive(true);
             losePanel.SetActive(true);
             PotionBoard.Instance.potionParent.SetActive(false);
@@ -68,11 +72,4 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void WinGame() {
-        SceneManager.LoadScene(0);
-    }
-
-    public void LoseGame() {
-        SceneManager.LoadScene(0);
-    }
 }
