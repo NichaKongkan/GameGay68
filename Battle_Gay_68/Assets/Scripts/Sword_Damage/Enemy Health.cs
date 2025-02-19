@@ -10,30 +10,20 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private int startingHealth = 2;
     public int currentHealth;
 
+    private MonsterController monsterController;
+
     private void Start() {
-        MonsterController monsterController = GetComponent<MonsterController>();
+        monsterController = GetComponent<MonsterController>();
         currentHealth = startingHealth;
         PlayerPrefs.SetInt("isWin_" + monsterController.monsterID, 0);
-
-        
+        PlayerPrefs.Save();
     }
 
-    public void isAction(bool status)
-    {
-        gameObject.SetActive(status);
-    }
 
     private void Update() {
-        MonsterController monsterController = GetComponent<MonsterController>();
         if (currentHealth <= 0) {
             TeleportToPuzzel();
         }
-
-        if ((PlayerPrefs.GetInt("isWin_" + monsterController.monsterID)) == 1) {
-            isAction(false);
-            Debug.Log(monsterController.monsterID + " is dead");
-        }
-
 
     }
 
@@ -59,7 +49,4 @@ public class EnemyHealth : MonoBehaviour
         SceneManager.LoadScene("monster" + monsterController.monsterID);
     }
 
-
-    
-    
 }

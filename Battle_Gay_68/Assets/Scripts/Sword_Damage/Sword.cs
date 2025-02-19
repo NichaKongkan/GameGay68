@@ -35,7 +35,11 @@ public class Sword : MonoBehaviour
     }
 
     private void Attack() {
-        myAinmator.SetTrigger("Attack");
+        if (myAinmator != null) {
+            myAinmator.SetTrigger("Attack");
+        } else {
+            Debug.LogWarning("Animator is missing or has been destroyed!");
+        }
         weaponCollider.gameObject.SetActive(true);
 
         slashAnim = Instantiate(slashAnimPrefab, slashAnimSpawnPoint.position, Quaternion.identity);

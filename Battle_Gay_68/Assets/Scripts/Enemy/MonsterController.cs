@@ -8,7 +8,7 @@ public class MonsterController : MonoBehaviour
 
     private void Start()
     {
-        int monsterStatus = PlayerPrefs.GetInt(monsterID, 0);
+        int monsterStatus = PlayerPrefs.GetInt("isWin_" + monsterID);
         Debug.Log($"[MonsterController] {monsterID} status: {monsterStatus}");
 
         if (monsterStatus == 1)
@@ -20,8 +20,6 @@ public class MonsterController : MonoBehaviour
         {
             Debug.Log($"[MonsterController] {monsterID} Monster visible");
         }
-        
 
-        //gameObject.SetActive(false);
     }
 }
