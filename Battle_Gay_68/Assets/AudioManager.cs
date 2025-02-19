@@ -21,4 +21,26 @@ public class AudioManager : MonoBehaviour
         musicSource.Play();
     }
 
+    public void PlaySFX(string clip)
+    {
+        switch (clip)
+        {
+            case "death":
+                SFXSource.PlayOneShot(death);
+                break;
+            case "checkpoint":
+                SFXSource.PlayOneShot(checkpoint);
+                break;
+            case "wallTouch":
+                SFXSource.PlayOneShot(wallTouch);
+                break;
+            case "portalIn":
+                SFXSource.PlayOneShot(portalIn);
+                break;
+            case "portalOut":
+                SFXSource.PlayOneShot(portalOut);
+                break;
+        }
+    }
+
 }
