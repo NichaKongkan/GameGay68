@@ -37,13 +37,22 @@ public class Sword : MonoBehaviour
     private void Attack() {
         if (myAinmator != null) {
             myAinmator.SetTrigger("Attack");
-        } else {
-            Debug.LogWarning("Animator is missing or has been destroyed!");
-        }
-        weaponCollider.gameObject.SetActive(true);
+        }// else {
+        //    Debug.LogWarning("Animator is missing or has been destroyed!");
+        //}
 
-        slashAnim = Instantiate(slashAnimPrefab, slashAnimSpawnPoint.position, Quaternion.identity);
-        slashAnim.transform.parent = this.transform.parent;
+        if (weaponCollider != null) {
+            weaponCollider.gameObject.SetActive(true);
+        }// else {
+        //    Debug.LogWarning("weaponCollider is missing or has been destroyed!");
+        //}
+
+        if (slashAnimSpawnPoint != null) {
+            slashAnim = Instantiate(slashAnimPrefab, slashAnimSpawnPoint.position, Quaternion.identity);
+            slashAnim.transform.parent = this.transform.parent;
+        }// else {
+        //    Debug.LogWarning("slashAnimSpawnPoint is missing or has been destroyed!");
+        //}
     }
 
     public void DoneAttackingAnimEvent() {
