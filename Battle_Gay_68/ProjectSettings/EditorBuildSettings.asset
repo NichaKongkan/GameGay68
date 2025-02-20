@@ -23,4 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3MatchGame/monsterC.unity
     guid: 44e9bfe444f3a1d44a23d5bb1aeeb4ad
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 25936d5291b305048bd67badabadc7ef, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 1f63a52a0af90494bac11b1a84bb674d, type: 2}
