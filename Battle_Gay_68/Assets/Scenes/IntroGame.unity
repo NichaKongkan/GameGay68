@@ -895,6 +895,7 @@ MonoBehaviour:
   videoPlayer: {fileID: 1653184532}
   videoClips:
   - {fileID: 32900000, guid: 07a6c90816b224e4bb59e61a3fc52efa, type: 3}
+  - {fileID: 32900000, guid: 3a5770ac2852020419f6407ad702314c, type: 3}
 --- !u!1 &1688055318
 GameObject:
   m_ObjectHideFlags: 0
