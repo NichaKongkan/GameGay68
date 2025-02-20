@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - Yes it is
-  responses: []
+  responses:
+  - responseText: 
+    dialogueObject: {fileID: 0}

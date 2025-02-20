@@ -10,16 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bdfbbf2840eebe42a5a490dbfd2dad7, type: 3}
-  m_Name: Test
+  m_Name: "\u0E19\u0E35\u0E48\u0E04\u0E37\u0E2D\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E41\u0E23\u0E01\n\u0E40\u0E2B\u0E49\u0E22
+    \u0E40\u0E2B\u0E49\u0E22"
   m_EditorClassIdentifier: 
   dialogue:
-  - 'This is the first message
-
-    Hey hey'
-  - 'And this is the last message
-
-    Bye'
-  - "\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E40\u0E2A\u0E23\u0E47\u0E08\u0E2B\u0E23\u0E2D\u0E01"
+  - "\u0E2D\u0E37\u0E21..."
+  - aasas
+  - asggddgd
   responses:
   - responseText: Yes
     dialogueObject: {fileID: 11400000, guid: 54decf3198260e14e8ed26025d85f446, type: 2}

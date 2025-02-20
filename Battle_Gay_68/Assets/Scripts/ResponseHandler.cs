@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.Rendering;
 
 public class ResponseHandler : MonoBehaviour
 {
@@ -35,6 +36,28 @@ public class ResponseHandler : MonoBehaviour
     }
 
     private void OnPickedResponse(Response response) {
+        float value = -1f; // ค่าปริยาย ถ้าหาไม่เจอ
+
+        switch (response.ResponseText)
+        {
+            case "Yes":
+                value = 1f;
+                break;
+            case "No":
+                value = 0f;
+                break;
+            case "Ok":
+                value = 0.5f;
+                break;
+        }
+
+        //save the data
+        PlayerPrefs.SetFloat("playerAgree", value);
+        PlayerPrefs.Save();
+
+        Debug.Log("Number of agree of player: " + PlayerPrefs.GetFloat("playerAgree"));
+
+
         responseBox.gameObject.SetActive(false);
         foreach (GameObject button in tempResponseButtons) {
             Destroy(button);
