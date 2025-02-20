@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bdfbbf2840eebe42a5a490dbfd2dad7, type: 3}
   m_Name: No
   m_EditorClassIdentifier: 
-  dialogue: []
+  dialogue:
+  - No it isn't
+  responses: []

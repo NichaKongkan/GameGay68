@@ -39,10 +39,6 @@ public class DialogueUI : MonoBehaviour
         } else {
             CloseDialogueBox();
         }
-        
-        
-
-        CloseDialogueBox();
     }
 
     private void CloseDialogueBox() {
