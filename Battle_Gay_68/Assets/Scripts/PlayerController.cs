@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : Singleton<PlayerController>
 {
@@ -24,7 +25,27 @@ public class PlayerController : Singleton<PlayerController>
 
     private void OnEnable() {
         playerControls.Enable();
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
+    private void OnDisable()
+    {
+        playerControls.Disable();
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        SetPlayerPosition();
+    }
+
+    private void SetPlayerPosition()
+    {
+        GameObject spawnPoint = GameObject.FindWithTag("SpawnPoint"); // ค้นหาจุดเกิดใหม่
+        if (spawnPoint != null)
+        {
+            transform.position = spawnPoint.transform.position;
+        }
+    }
+
 
     private void Update() {
         PlayerInput();

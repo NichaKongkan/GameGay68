@@ -46,7 +46,7 @@ public class EnemyHealth : MonoBehaviour
         MonsterController monsterController = GetComponent<MonsterController>();
 
         PlayerPrefs.Save();
-        SceneManager.LoadScene("monster" + monsterController.monsterID);
+        SceneManagement.Instance.LoadScene("monster" + monsterController.monsterID);        //<--------- Load Scene to puzzle
     }
 
 }

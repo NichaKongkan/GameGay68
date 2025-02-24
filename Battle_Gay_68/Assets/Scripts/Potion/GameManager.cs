@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
     public TMP_Text movesTxt;
     public TMP_Text goalTxt;
 
+    public static string[] allMonsterIDs = {"A", "B", "C"};
+
     private void Awake() {
         Instance = this;
     }
@@ -37,8 +39,11 @@ public class GameManager : MonoBehaviour
         goalTxt.text = "Goal: " + goal.ToString();
 
         if ((PlayerPrefs.GetInt("isWin_" + puzzleID) == 1 || moves == 0) && Input.GetKeyDown(KeyCode.Space)) {
-            SceneManager.LoadScene("Sample1");
+            SceneManager.LoadScene("Sample1");                           //<--------- Load Scene Back
+
         }
+        CheckAllMonstersIsDead();
+
     }
 
     public void ProcessTurn(int _pointsToGain, bool _subtractMoves) {
@@ -71,6 +76,18 @@ public class GameManager : MonoBehaviour
             PotionBoard.Instance.potionParent.SetActive(false);
             return;
         }
+    }
+
+    private void CheckAllMonstersIsDead() {
+        foreach (string id in allMonsterIDs) {
+            if ((PlayerPrefs.GetInt("isWin_" + id)) != 1) {
+                return;
+            }
+        }
+
+        Debug.Log("All monsers are dead, go to another world");
+        SceneManager.LoadScene("Sample2");                  //<----- Load Scene to another world
+
     }
 
 }
