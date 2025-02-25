@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviour
         }
 
         Debug.Log("All monsers are dead, go to another world");
-        SceneManager.LoadScene("Sample2");                  //<----- Load Scene to another world
+        SceneManager.LoadScene("BeforeBoss1");                  //<----- Load Scene to another world
 
     }
 

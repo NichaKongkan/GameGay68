@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class IntroManager : MonoBehaviour
 {
@@ -57,6 +58,7 @@ public class IntroManager : MonoBehaviour
     if (sceneIndex >= scenes.Count)
     {
         Debug.Log("จบ Intro");
+        SceneManager.LoadScene("Sample1");
         return;
     }
 

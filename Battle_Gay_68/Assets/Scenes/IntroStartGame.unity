@@ -1143,20 +1143,20 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 41050786d7837144f8903dc9c211f783, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "[\u0E40\u0E14\u0E34\u0E19\u0E44\u0E1B\u0E40\u0E1B\u0E34\u0E14\u0E21\u0E48\u0E32\u0E19]"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: b493a8b7e23a9464f8d597bcbd85c402, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 59b380f24af356e42bdec0eb919cdb20, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - 
     - "\"\u0E2D\u0E48\u0E32 \u0E41\u0E25\u0E49\u0E27\u0E09\u0E31\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E17\u0E33\u0E22\u0E31\u0E07\u0E44\u0E07\u0E15\u0E48\u0E2D\u0E2B\u0E23\u0E2D\""
     - "[\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E27\u0E48\u0E32\u0E09\u0E31\u0E19\u0E08\u0E30\u0E0B\u0E27\u0E22\u0E0B\u0E30\u0E41\u0E25\u0E49\u0E27]"
-    delayDialogueBox: 1
+    delayDialogueBox: 0
     delayBackground: 1
     responses: []
   - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
@@ -1166,14 +1166,14 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 9d3a0c512322a8741adee1ac63cd7c7d, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E2A.. \u0E2A\u0E27\u0E31\u0E2A\u0E14\u0E35\u0E04\u0E23\u0E31\u0E1A\""
+    - 
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: dd4533c3486304f4ba53ecb8bc5614ca, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - 
@@ -1181,7 +1181,14 @@ MonoBehaviour:
     delayDialogueBox: 1
     delayBackground: 1
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: f614283b87b09c64a97606c1d6b33d6f, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\"\u0E2A.. \u0E2A\u0E27\u0E31\u0E2A\u0E14\u0E35\u0E04\u0E23\u0E31\u0E1A\""
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+  - backgroundImage: {fileID: 21300000, guid: 9ee4ee787eae5b04b81d3f1407e530b1, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E22\u0E34\u0E19\u0E14\u0E35\u0E17\u0E35\u0E48\u0E44\u0E14\u0E49\u0E1E\u0E1A\u0E2B\u0E19\u0E49\u0E32
@@ -1202,7 +1209,7 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: ccaf99a53abb5034291f3e46d4623ba8, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E14\u0E30 \u0E40\u0E14\u0E35\u0E4B\u0E22\u0E27\u0E19\u0E30\u0E04\u0E23\u0E31\u0E1A
@@ -1210,7 +1217,7 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 9ee4ee787eae5b04b81d3f1407e530b1, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E40\u0E23\u0E32\u0E40\u0E2D\u0E07\u0E01\u0E47\u0E44\u0E21\u0E48\u0E17\u0E23\u0E32\u0E1A\u0E27\u0E48\u0E32\u0E17\u0E33\u0E44\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E17\u0E48\u0E32\u0E19
@@ -1218,14 +1225,14 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: ccaf99a53abb5034291f3e46d4623ba8, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E41\u0E25\u0E49\u0E27\u0E1C\u0E21\u0E08\u0E30\u0E2B\u0E32\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E31\u0E25\u0E1E\u0E27\u0E01\u0E19\u0E31\u0E49\u0E19\u0E44\u0E14\u0E49\u0E08\u0E32\u0E01\u0E44\u0E2B\u0E19\""
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 9ee4ee787eae5b04b81d3f1407e530b1, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E43\u0E19\u0E23\u0E48\u0E32\u0E07\u0E01\u0E32\u0E22\u0E02\u0E2D\u0E07\u0E40\u0E1C\u0E48\u0E32\u0E21\u0E32\u0E23\u0E41\u0E25\u0E30\u0E2D\u0E2A\u0E39\u0E23\u0E08\u0E30\u0E21\u0E35\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E31\u0E25\u0E2D\u0E22\u0E39\u0E48
@@ -1233,7 +1240,7 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: ccaf99a53abb5034291f3e46d4623ba8, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E1C\u0E21\u0E17\u0E33\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E2B\u0E23\u0E2D\u0E01!!
@@ -1241,7 +1248,7 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 9ee4ee787eae5b04b81d3f1407e530b1, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E17\u0E48\u0E32\u0E19\u0E17\u0E33\u0E44\u0E14\u0E49\u0E41\u0E19\u0E48\u0E19\u0E2D\u0E19
@@ -1249,7 +1256,7 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: ccaf99a53abb5034291f3e46d4623ba8, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E1A\u0E49\u0E32\u0E44\u0E1B\u0E41\u0E25\u0E49\u0E27!! \u0E42\u0E0A\u0E04\u0E0A\u0E30\u0E15\u0E32\u0E1A\u0E49\u0E32\u0E1A\u0E2D\u0E2D\u0E30\u0E44\u0E23\u0E01\u0E31\u0E19!
@@ -1259,7 +1266,7 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 9ee4ee787eae5b04b81d3f1407e530b1, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E04\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E44\u0E1B\u0E44\u0E14\u0E49\u0E22\u0E32\u0E01
@@ -1274,14 +1281,14 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: ccaf99a53abb5034291f3e46d4623ba8, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E1E\u0E27\u0E01\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E21\u0E35\u0E1E\u0E25\u0E31\u0E07\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E07\u0E31\u0E49\u0E19\u0E2B\u0E23\u0E2D\""
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 9ee4ee787eae5b04b81d3f1407e530b1, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E2B\u0E32\u0E01\u0E40\u0E23\u0E32\u0E21\u0E35\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E31\u0E25\u0E08\u0E30\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E1E\u0E25\u0E31\u0E07\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E44\u0E14\u0E49
@@ -1289,7 +1296,7 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: ccaf99a53abb5034291f3e46d4623ba8, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E41\u0E25\u0E49\u0E27\u0E1C\u0E21\u0E08\u0E30\u0E2A\u0E39\u0E49\u0E01\u0E31\u0E1A\u0E1E\u0E27\u0E01\u0E19\u0E31\u0E49\u0E19\u0E44\u0E14\u0E49\u0E22\u0E31\u0E07\u0E44\u0E07
@@ -1297,7 +1304,7 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 9ee4ee787eae5b04b81d3f1407e530b1, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E17\u0E48\u0E32\u0E19\u0E21\u0E35\u0E1E\u0E23\u0E08\u0E32\u0E01\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E31\u0E25\u0E17\u0E35\u0E48\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E17\u0E48\u0E32\u0E19\u0E21\u0E32\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48
@@ -1309,14 +1316,14 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: ccaf99a53abb5034291f3e46d4623ba8, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E1C\u0E21\u0E44\u0E21\u0E48\u0E21\u0E35\u0E17\u0E32\u0E07\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E2A\u0E34\u0E19\u0E30\u2026\""
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 9ee4ee787eae5b04b81d3f1407e530b1, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\"\u0E42\u0E1B\u0E23\u0E14\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E21\u0E31\u0E48\u0E19\u0E43\u0E19\u0E15\u0E31\u0E27\u0E17\u0E48\u0E32\u0E19\u0E40\u0E2D\u0E07\""
