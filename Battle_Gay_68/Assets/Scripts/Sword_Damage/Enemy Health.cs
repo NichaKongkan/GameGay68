@@ -12,41 +12,59 @@ public class EnemyHealth : MonoBehaviour
 
     private MonsterController monsterController;
 
-    private void Start() {
+    private void Start()
+    {
         monsterController = GetComponent<MonsterController>();
         currentHealth = startingHealth;
-        PlayerPrefs.SetInt("isWin_" + monsterController.monsterID, 0);
-        PlayerPrefs.Save();
+        if (!PlayerPrefs.HasKey("isWin_" + monsterController.monsterID))
+        {
+            PlayerPrefs.SetInt("isWin_" + monsterController.monsterID, 0);
+            PlayerPrefs.Save();
+        }
     }
 
 
-    private void Update() {
-        if (currentHealth <= 0) {
+    private void Update()
+    {
+        if (currentHealth <= 0)
+        {
             TeleportToPuzzel();
         }
 
     }
 
-    public void TakeDamage(int damage) {
+    public void TakeDamage(int damage)
+    {
         currentHealth -= damage;
         Debug.Log(currentHealth);
         MonsterController monsterController = GetComponent<MonsterController>();
 
-        if (monsterController != null) {
+        if (monsterController != null)
+        {
             Debug.Log("Puzzle ID: " + monsterController.monsterID);
             Debug.Log("Monster" + monsterController.monsterID + "Status Saved: " + PlayerPrefs.GetInt("isWin_" + monsterController.monsterID));
-        } else {
+        }
+        else
+        {
             Debug.Log("I don't see it");
         }
-        
+
     }
 
 
-    private void TeleportToPuzzel() {
-        MonsterController monsterController = GetComponent<MonsterController>();
+    private void TeleportToPuzzel()
+    {
+        if (monsterController == null)
+        {
+            Debug.LogError("MonsterController not found on this enemy!");
+            return;
+        }
 
+        // Save the game state before teleporting
         PlayerPrefs.Save();
-        SceneManagement.Instance.LoadScene("monster" + monsterController.monsterID);        //<--------- Load Scene to puzzle
+
+        // เปลี่ยนซีนไปยังปริศนา
+        SceneManager.LoadScene("monster" + monsterController.monsterID);
     }
 
 }
