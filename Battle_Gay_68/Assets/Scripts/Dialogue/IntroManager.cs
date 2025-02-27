@@ -22,8 +22,9 @@ public class IntroManager : MonoBehaviour
         public VideoClip videoClip;
         public string[] dialogues;
         public bool delayDialogueBox;
-        public bool delayBackground; // ✅ เพิ่ม checkbox สำหรับ Background
+        public bool delayBackground;
         public List<Response> responses;
+        public bool endSceneImmediately; // ✅ เพิ่มตัวเลือกแยกตามแต่ละ Scene
     }
 
     public CanvasGroup dialogueCanvasGroup;
@@ -33,6 +34,7 @@ public class IntroManager : MonoBehaviour
     public List<SceneData> scenes;
     public GameObject responsePanel;
     public GameObject responseButtonPrefab;
+
 
     private int currentSceneIndex = 0;
     private int currentDialogueIndex = 0;
@@ -54,84 +56,81 @@ public class IntroManager : MonoBehaviour
     }
 
     void ShowScene(int sceneIndex)
-{
-    if (sceneIndex >= scenes.Count)
     {
-        Debug.Log("จบ Intro");
-        SceneManager.LoadScene("Sample1");
-        return;
-    }
-
-    currentSceneIndex = sceneIndex;
-    currentDialogueIndex = 0;
-    SceneData scene = scenes[currentSceneIndex];
-
-    // ซ่อนกล่องข้อความและฉากหลังเริ่มต้น
-    dialogueCanvasGroup.alpha = 0;
-    backgroundImage.color = new Color(1, 1, 1, scene.delayBackground ? 0 : 1);
-
-    if (scene.videoClip != null)
-    {
-        videoPlayer.clip = scene.videoClip;
-        videoPlayer.gameObject.SetActive(true);
-        backgroundImage.gameObject.SetActive(false);
-        videoPlayer.Play();
-    }
-    else
-    {
-        backgroundImage.sprite = scene.backgroundImage;
-        backgroundImage.gameObject.SetActive(true);
-        videoPlayer.gameObject.SetActive(false);
-
-        if (scene.delayBackground)
+        if (sceneIndex >= scenes.Count)
         {
-            StartCoroutine(ShowBackgroundThenDialogue(scene.delayDialogueBox)); // รอให้ฉากหลัง fade ก่อนแสดง Dialogue
+            Debug.Log("จบ Intro");
+            SceneManager.LoadScene("Sample1");
+            return;
         }
-        else if (scene.delayDialogueBox)
+
+        currentSceneIndex = sceneIndex;
+        currentDialogueIndex = 0;
+        SceneData scene = scenes[currentSceneIndex];
+
+        // ✅ เช็คว่า Scene ปัจจุบันมีการตั้งค่าให้จบเลยไหม
+        if (scene.endSceneImmediately)
         {
-            StartCoroutine(WaitForKeyPress(KeyCode.E)); // ถ้าติ๊กแค่ delayDialogueBox รอให้กด E
+            Debug.Log($"จบ Scene {sceneIndex} ทันที");
+            SceneManager.LoadScene("Sample1");
+            return;
+        }
+
+        dialogueCanvasGroup.alpha = 0;
+        backgroundImage.color = new Color(1, 1, 1, scene.delayBackground ? 0 : 1);
+
+        if (scene.videoClip != null)
+        {
+            videoPlayer.clip = scene.videoClip;
+            videoPlayer.gameObject.SetActive(true);
+            backgroundImage.gameObject.SetActive(false);
+            videoPlayer.Play();
         }
         else
         {
-            dialogueCanvasGroup.alpha = 1;
-            ShowDialogueBox();
+            backgroundImage.sprite = scene.backgroundImage;
+            backgroundImage.gameObject.SetActive(true);
+            videoPlayer.gameObject.SetActive(false);
+
+            if (scene.delayBackground)
+            {
+                StartCoroutine(ShowBackgroundThenDialogue(scene.delayDialogueBox));
+            }
+            else if (scene.delayDialogueBox)
+            {
+                StartCoroutine(WaitForKeyPress(KeyCode.E));
+            }
+            else
+            {
+                dialogueCanvasGroup.alpha = 1;
+                ShowDialogueBox();
+            }
         }
     }
-}
 
-IEnumerator ShowBackgroundThenDialogue(bool delayDialogueBox)
-{
-    yield return StartCoroutine(FadeInBackground(1f)); // รอให้ Background ค่อยๆ จางเข้ามา
 
-    if (delayDialogueBox)
+    IEnumerator ShowBackgroundThenDialogue(bool delayDialogueBox)
     {
-        yield return StartCoroutine(WaitForKeyPress(KeyCode.E)); // รอให้กด E ก่อนแสดงกล่องข้อความ
-    }
+        yield return StartCoroutine(FadeInBackground(1f));
 
-    dialogueCanvasGroup.alpha = 1;
-    ShowDialogueBox();
-}
+        if (delayDialogueBox)
+        {
+            yield return StartCoroutine(WaitForKeyPress(KeyCode.E));
+        }
 
-private IEnumerator WaitForKeyPress(KeyCode key)
-{
-    while (!Input.GetKeyDown(key))
-    {
-        yield return null;
-    }
-
-    dialogueCanvasGroup.alpha = 1;
-    ShowDialogueBox();
-}
-
-
-
-    IEnumerator ShowBackgroundThenDialogue()
-    {
-        // รอจนกว่าผู้เล่นจะกด E
-        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
-
-        // แสดง Dialogue
         dialogueCanvasGroup.alpha = 1;
+        ShowDialogueBox();
+    }
+
+    private IEnumerator WaitForKeyPress(KeyCode key)
+    {
+        while (!Input.GetKeyDown(key))
+        {
+            yield return null;
+        }
+
+        dialogueCanvasGroup.alpha = 1;
+        ShowDialogueBox();
     }
 
     IEnumerator FadeInBackground(float duration)
@@ -150,7 +149,6 @@ private IEnumerator WaitForKeyPress(KeyCode key)
     {
         SceneData scene = scenes[currentSceneIndex];
 
-        // Ensure the dialogue index is within bounds
         if (currentDialogueIndex < scene.dialogues.Length - 1)
         {
             currentDialogueIndex++;
@@ -169,7 +167,6 @@ private IEnumerator WaitForKeyPress(KeyCode key)
         }
     }
 
-
     void PlayDialogue(string dialogue)
     {
         if (typingCoroutine != null)
@@ -181,8 +178,6 @@ private IEnumerator WaitForKeyPress(KeyCode key)
 
     void ShowResponses(List<Response> responses)
     {
-        responsePanel.SetActive(true);
-
         foreach (Transform child in responsePanel.transform)
         {
             Destroy(child.gameObject);
@@ -192,12 +187,18 @@ private IEnumerator WaitForKeyPress(KeyCode key)
         {
             GameObject buttonObj = Instantiate(responseButtonPrefab, responsePanel.transform);
             TextMeshProUGUI buttonText = buttonObj.GetComponentInChildren<TextMeshProUGUI>();
-            buttonText.text = response.responseText;
+
+            buttonText.text = response.responseText;  // ✅ เซ็ตค่าก่อนเปิด Panel  
+            buttonText.fontSize = 120;
 
             Button button = buttonObj.GetComponent<Button>();
             button.onClick.AddListener(() => SelectResponse(response.nextSceneIndex));
         }
+
+        responsePanel.SetActive(true);  // ✅ เปิดหลังจากเซ็ตค่าเสร็จ
+        LayoutRebuilder.ForceRebuildLayoutImmediate(responsePanel.GetComponent<RectTransform>()); // ✅ บังคับ UI รีเฟรช
     }
+
 
     void SelectResponse(int nextSceneIndex)
     {
@@ -210,8 +211,8 @@ private IEnumerator WaitForKeyPress(KeyCode key)
         if (currentDialogueIndex < scenes[currentSceneIndex].dialogues.Length)
         {
             string dialogue = scenes[currentSceneIndex].dialogues[currentDialogueIndex];
-            PlayDialogue(dialogue); // ทำการเล่นข้อความแบบ Typewriter
+            PlayDialogue(dialogue);
         }
-        dialogueCanvasGroup.alpha = 1; // ทำให้กล่องข้อความปรากฏ
+        dialogueCanvasGroup.alpha = 1;
     }
 }

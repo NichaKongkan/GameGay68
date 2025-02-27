@@ -1,5 +1,7 @@
 using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
+
 
 [System.Serializable]
 public class Response
@@ -8,6 +10,5 @@ public class Response
     [SerializeField] private DialogueObject dialogueObject;
 
     public string ResponseText => responseText;
-
     public DialogueObject DialogueObject => dialogueObject;
 }
