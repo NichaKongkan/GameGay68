@@ -53121,9 +53121,15 @@ Transform:
   m_PrefabInstance: {fileID: 1793375843}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Battle_Gay_68/Assets/Scenes/Sample2.unity
 --- !u!1 &1229138999
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 <<<<<<< HEAD:Battle_Gay_68/Assets/Scenes/MapBoss1.unity
@@ -53132,7 +53138,13 @@ Transform:
 --- !u!1 &1229138999
 >>>>>>> 1e182376c21bdbfa3ae4d8e20796c5c28a9f69b7:Battle_Gay_68/Assets/Scenes/Sample2.unity
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Battle_Gay_68/Assets/Scenes/MapBoss1.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 GameObject:
@@ -53143,8 +53155,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Battle_Gay_68/Assets/Scenes/Sample2.unity
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 <<<<<<< HEAD:Battle_Gay_68/Assets/Scenes/MapBoss1.unity
@@ -53157,7 +53175,13 @@ GameObject:
   m_TagString: Untagged
 =======
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Battle_Gay_68/Assets/Scenes/MapBoss1.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   - component: {fileID: 1229139000}
@@ -53165,10 +53189,18 @@ GameObject:
   m_Name: SpawnPoint
   m_TagString: SpawnPoint
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Battle_Gay_68/Assets/Scenes/Sample2.unity
 =======
 >>>>>>> 1e182376c21bdbfa3ae4d8e20796c5c28a9f69b7:Battle_Gay_68/Assets/Scenes/Sample2.unity
 >>>>>>> Stashed changes:Battle_Gay_68/Assets/Scenes/MapBoss1.unity
+=======
+>>>>>>> 1e182376c21bdbfa3ae4d8e20796c5c28a9f69b7:Battle_Gay_68/Assets/Scenes/Sample2.unity
+>>>>>>> Stashed changes
+=======
+>>>>>>> 1e182376c21bdbfa3ae4d8e20796c5c28a9f69b7:Battle_Gay_68/Assets/Scenes/Sample2.unity
+>>>>>>> Stashed changes
 =======
 >>>>>>> 1e182376c21bdbfa3ae4d8e20796c5c28a9f69b7:Battle_Gay_68/Assets/Scenes/Sample2.unity
 >>>>>>> Stashed changes
@@ -53177,10 +53209,16 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Battle_Gay_68/Assets/Scenes/Sample2.unity
 --- !u!4 &1229139000
 Transform:
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 <<<<<<< HEAD:Battle_Gay_68/Assets/Scenes/MapBoss1.unity
@@ -53191,7 +53229,13 @@ RectTransform:
 Transform:
 >>>>>>> 1e182376c21bdbfa3ae4d8e20796c5c28a9f69b7:Battle_Gay_68/Assets/Scenes/Sample2.unity
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Battle_Gay_68/Assets/Scenes/MapBoss1.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_ObjectHideFlags: 0
@@ -53199,8 +53243,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Battle_Gay_68/Assets/Scenes/Sample2.unity
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 <<<<<<< HEAD:Battle_Gay_68/Assets/Scenes/MapBoss1.unity
@@ -53302,7 +53352,13 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 =======
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Battle_Gay_68/Assets/Scenes/MapBoss1.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_GameObject: {fileID: 1229138999}
@@ -53315,10 +53371,18 @@ CanvasRenderer:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Battle_Gay_68/Assets/Scenes/Sample2.unity
 =======
 >>>>>>> 1e182376c21bdbfa3ae4d8e20796c5c28a9f69b7:Battle_Gay_68/Assets/Scenes/Sample2.unity
 >>>>>>> Stashed changes:Battle_Gay_68/Assets/Scenes/MapBoss1.unity
+=======
+>>>>>>> 1e182376c21bdbfa3ae4d8e20796c5c28a9f69b7:Battle_Gay_68/Assets/Scenes/Sample2.unity
+>>>>>>> Stashed changes
+=======
+>>>>>>> 1e182376c21bdbfa3ae4d8e20796c5c28a9f69b7:Battle_Gay_68/Assets/Scenes/Sample2.unity
+>>>>>>> Stashed changes
 =======
 >>>>>>> 1e182376c21bdbfa3ae4d8e20796c5c28a9f69b7:Battle_Gay_68/Assets/Scenes/Sample2.unity
 >>>>>>> Stashed changes
@@ -54983,9 +55047,15 @@ SceneRoots:
   - {fileID: 5703280777968589568}
   - {fileID: 7548088894585002568}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Battle_Gay_68/Assets/Scenes/Sample2.unity
   - {fileID: 1229139000}
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 <<<<<<< HEAD:Battle_Gay_68/Assets/Scenes/MapBoss1.unity
@@ -54995,6 +55065,12 @@ SceneRoots:
   - {fileID: 1229139000}
 >>>>>>> 1e182376c21bdbfa3ae4d8e20796c5c28a9f69b7:Battle_Gay_68/Assets/Scenes/Sample2.unity
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes:Battle_Gay_68/Assets/Scenes/MapBoss1.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
