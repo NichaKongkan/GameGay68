@@ -290,7 +290,7 @@ MonoBehaviour:
   backgroundPanel: {fileID: 1112727682}
   victoryPanel: {fileID: 1805020308}
   losePanel: {fileID: 435723635}
-  goal: 3
+  goal: 30
   moves: 10
   points: 0
   pointsTxt: {fileID: 2070165120}
@@ -2517,7 +2517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3113e895046fc146b0ef2c935f391f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleID: 
+  puzzleID: Boss_1
 --- !u!4 &1442433006
 Transform:
   m_ObjectHideFlags: 0
