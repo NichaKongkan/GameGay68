@@ -609,7 +609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 705562391}
   SFXSource: {fileID: 523774062}
-  background: {fileID: 8300000, guid: cb956d5764231a7448604917265c326c, type: 3}
+  background: {fileID: 8300000, guid: 99e628da446a2e24fb2ce354c6c0b442, type: 3}
   death: {fileID: 0}
   checkpoint: {fileID: 0}
   wallTouch: {fileID: 0}
@@ -944,7 +944,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cb956d5764231a7448604917265c326c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 99e628da446a2e24fb2ce354c6c0b442, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.485
   m_Pitch: 1
@@ -1952,7 +1952,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: daec4c2777e636f42ab3ad6a87e6ea6e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: db57f3fe88e31314485ef3e3d4b8d382, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -21623,7 +21623,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 451687678924200621, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: startingHealth
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 845036552831603806, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21668,10 +21668,6 @@ PrefabInstance:
     - target: {fileID: 4100582833648874897, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: m_Name
       value: Blue Slime (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8755219728532920893, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
-      propertyPath: knockBackTime
-      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21971,7 +21967,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 451687678924200621, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: startingHealth
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 845036552831603806, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22016,10 +22012,6 @@ PrefabInstance:
     - target: {fileID: 4100582833648874897, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: m_Name
       value: Blue Slime
-      objectReference: {fileID: 0}
-    - target: {fileID: 8755219728532920893, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
-      propertyPath: knockBackTime
-      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22740,7 +22732,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 451687678924200621, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: startingHealth
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 845036552831603806, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22785,10 +22777,6 @@ PrefabInstance:
     - target: {fileID: 4100582833648874897, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: m_Name
       value: Blue Slime (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8755219728532920893, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
-      propertyPath: knockBackTime
-      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

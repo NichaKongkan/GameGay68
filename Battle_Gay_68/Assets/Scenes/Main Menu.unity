@@ -894,8 +894,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000074387, y: 0.000012159}
-  m_SizeDelta: {x: 489.14, y: 150.664}
+  m_AnchoredPosition: {x: 0.000065327, y: 0.0000035763}
+  m_SizeDelta: {x: 468.619, y: 148.383}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &645277920
 MonoBehaviour:
@@ -2116,6 +2116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_AnchoredPosition: {x: 0.000041007996, y: -0.000009059906}
@@ -2128,6 +2129,10 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000061035, y: -0.0000081062}
   m_SizeDelta: {x: 227.292, y: 93.996}
 >>>>>>> Stashed changes
+=======
+  m_AnchoredPosition: {x: -0.0000042915, y: -0.0000081062}
+  m_SizeDelta: {x: 185.9, y: 93.996}
+>>>>>>> parent of 6108770 (Add Knockback)
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1746847102
 MonoBehaviour:

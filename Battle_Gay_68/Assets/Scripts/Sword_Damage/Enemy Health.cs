@@ -7,18 +7,10 @@ using TMPro;
 
 public class EnemyHealth : MonoBehaviour
 {
-    [SerializeField] private int startingHealth = 3;
+    [SerializeField] private int startingHealth = 2;
     public int currentHealth;
-    private Knockback knockback;
-    private Flash flash;
 
     private MonsterController monsterController;
-
-    private void Awake()
-    {
-        flash = GetComponent<Flash>();
-        knockback = GetComponent<Knockback>();
-    }
 
     private void Start()
     {
@@ -44,9 +36,8 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        knockback.GetKnockedBack(PlayerController.Instance.transform, 15f);
+        Debug.Log(currentHealth);
         MonsterController monsterController = GetComponent<MonsterController>();
-        StartCoroutine(flash.FlashRoutine());
 
         if (monsterController != null)
         {
@@ -58,14 +49,6 @@ public class EnemyHealth : MonoBehaviour
             Debug.Log("I don't see it");
         }
 
-    }
-
-    public void DetectDeath()
-    {
-        if (currentHealth <= 0)
-        {
-            Destroy(gameObject);
-        }
     }
 
 
