@@ -27,6 +27,7 @@ public class IntroManager : MonoBehaviour
         public bool endSceneImmediately; // ✅ เพิ่มตัวเลือกแยกตามแต่ละ Scene
     }
 
+    public string sceneToGo;
     public CanvasGroup dialogueCanvasGroup;
     public Image backgroundImage;
     public VideoPlayer videoPlayer;
@@ -52,6 +53,8 @@ public class IntroManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             NextDialogue();
+        } else if(Input.GetKeyDown(KeyCode.P)) {
+            SceneManager.LoadScene(sceneToGo);
         }
     }
 
@@ -60,7 +63,7 @@ public class IntroManager : MonoBehaviour
         if (sceneIndex >= scenes.Count)
         {
             Debug.Log("จบ Intro");
-            SceneManager.LoadScene("Sample1");
+            SceneManager.LoadScene(sceneToGo);
             return;
         }
 
@@ -72,7 +75,7 @@ public class IntroManager : MonoBehaviour
         if (scene.endSceneImmediately)
         {
             Debug.Log($"จบ Scene {sceneIndex} ทันที");
-            SceneManager.LoadScene("Sample1");
+            SceneManager.LoadScene(sceneToGo);
             return;
         }
 

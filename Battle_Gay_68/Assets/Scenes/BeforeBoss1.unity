@@ -1031,26 +1031,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0db437f7cf7b32b46a85ec74eb33b4a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToGo: Boss1
   dialogueCanvasGroup: {fileID: 1582410654}
   backgroundImage: {fileID: 75903987}
   videoPlayer: {fileID: 318588649}
   dialogueText: {fileID: 2006132461}
   scenes:
-  - backgroundImage: {fileID: 0}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - 
+    delayDialogueBox: 1
+    delayBackground: 1
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: cebf0e3dca57a264b9a93d02a2358338, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - 
+    delayDialogueBox: 1
+    delayBackground: 1
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: aaed432f81989354595f48fbe14b3e6b, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - 
+    delayDialogueBox: 1
+    delayBackground: 1
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201C\u0E2B\u0E37\u0E21 \u0E40\u0E08\u0E49\u0E32\u0E04\u0E37\u0E2D\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E1E\u0E27\u0E01\u0E44\u0E23\u0E49\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E19\u0E31\u0E48\u0E19\u0E2B\u0E23\u0E37\u0E2D\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 0}
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - '!!'
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 0}
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201C\u0E40\u0E08\u0E49\u0E32\u0E44\u0E14\u0E49\u0E2A\u0E31\u0E07\u0E2B\u0E32\u0E23
@@ -1058,14 +1085,16 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 0}
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201C\u0E41\u0E01! \u0E41\u0E01\u0E04\u0E37\u0E2D\u0E08\u0E2D\u0E21\u0E21\u0E32\u0E23\u0E2A\u0E34\u0E19\u0E30\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 0}
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201C\u0E09\u0E25\u0E32\u0E14\u0E14\u0E35\u0E19\u0E35\u0E48 \u0E09\u0E31\u0E19\u0E04\u0E37\u0E2D\u0E08\u0E2D\u0E21\u0E21\u0E32\u0E23\u0E41\u0E2B\u0E48\u0E07\u0E42\u0E25\u0E2B\u0E34\u0E15 
@@ -1075,13 +1104,31 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
-  - backgroundImage: {fileID: 0}
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201C\u0E43\u0E04\u0E23\u0E08\u0E30\u0E22\u0E2D\u0E21\u0E01\u0E31\u0E19\u0E40\u0E25\u0E48\u0E32\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - 
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - 
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 1
   responsePanel: {fileID: 121375859}
   responseButtonPrefab: {fileID: 2163112381097341029, guid: cb8bf0332ed1b9941a2aa1a871482f0d, type: 3}
 --- !u!114 &1725017624

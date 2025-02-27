@@ -1031,6 +1031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0db437f7cf7b32b46a85ec74eb33b4a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToGo: Sample1
   dialogueCanvasGroup: {fileID: 1582410654}
   backgroundImage: {fileID: 75903987}
   videoPlayer: {fileID: 318588649}
