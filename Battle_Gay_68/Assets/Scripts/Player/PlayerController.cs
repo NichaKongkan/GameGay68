@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class PlayerController : Singleton<PlayerController>
 {
     public bool FacingLeft { get {return facingLeft; } set {facingLeft = value; } }
+    private static PlayerController instance;
     [SerializeField] private float moveSpeed = 1f;
 
     private PlayerControls playerControls;
@@ -11,12 +12,13 @@ public class PlayerController : Singleton<PlayerController>
     private Rigidbody2D rb;
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
+    
 
     private bool facingLeft = false;
 
     protected override void Awake() {
         base.Awake();
-
+        instance = this;
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
