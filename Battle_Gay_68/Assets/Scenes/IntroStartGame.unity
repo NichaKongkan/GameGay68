@@ -1143,43 +1143,48 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - 
+    delayDialogueBox: 1
+    delayBackground: 1
+    responses: []
   - backgroundImage: {fileID: 21300000, guid: 41050786d7837144f8903dc9c211f783, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "[\u0E40\u0E14\u0E34\u0E19\u0E44\u0E1B\u0E40\u0E1B\u0E34\u0E14\u0E21\u0E48\u0E32\u0E19]"
     delayDialogueBox: 0
-    delayBackground: 0
+    delayBackground: 1
     responses: []
   - backgroundImage: {fileID: 21300000, guid: 59b380f24af356e42bdec0eb919cdb20, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - 
     - "\"\u0E2D\u0E48\u0E32 \u0E41\u0E25\u0E49\u0E27\u0E09\u0E31\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E17\u0E33\u0E22\u0E31\u0E07\u0E44\u0E07\u0E15\u0E48\u0E2D\u0E2B\u0E23\u0E2D\""
     - "[\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E27\u0E48\u0E32\u0E09\u0E31\u0E19\u0E08\u0E30\u0E0B\u0E27\u0E22\u0E0B\u0E30\u0E41\u0E25\u0E49\u0E27]"
     delayDialogueBox: 0
-    delayBackground: 1
+    delayBackground: 0
     responses: []
   - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - 
-    delayDialogueBox: 0
-    delayBackground: 0
+    delayDialogueBox: 1
+    delayBackground: 1
     responses: []
   - backgroundImage: {fileID: 21300000, guid: 9d3a0c512322a8741adee1ac63cd7c7d, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - 
     delayDialogueBox: 0
-    delayBackground: 0
+    delayBackground: 1
     responses: []
   - backgroundImage: {fileID: 21300000, guid: dd4533c3486304f4ba53ecb8bc5614ca, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - 
     - "\"\u0E19\u0E35\u0E48\u0E04\u0E37\u0E2D\u0E17\u0E48\u0E32\u0E19\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32\u0E02\u0E2D\u0E23\u0E31\u0E1A\u0E2D\u0E07\u0E04\u0E4C\u0E23\u0E32\u0E0A\u0E32"
     delayDialogueBox: 1
-    delayBackground: 1
+    delayBackground: 0
     responses: []
   - backgroundImage: {fileID: 21300000, guid: f614283b87b09c64a97606c1d6b33d6f, type: 3}
     videoClip: {fileID: 0}
@@ -1347,6 +1352,46 @@ MonoBehaviour:
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
+  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\"\u0E40\u0E2A\u0E1A\u0E35\u0E22\u0E07\u0E41\u0E25\u0E30\u0E02\u0E2D\u0E07\u0E08\u0E33\u0E40\u0E1B\u0E47\u0E19\u0E17\u0E38\u0E01\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E44\u0E14\u0E49\u0E40\u0E15\u0E23\u0E35\u0E22\u0E21\u0E2D\u0E22\u0E39\u0E48\u0E43\u0E19\u0E41\u0E2B\u0E27\u0E19\u0E40\u0E27\u0E17\u0E21\u0E19\u0E15\u0E4C\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19\u0E40\u0E23\u0E35\u0E22\u0E1A\u0E23\u0E49\u0E2D\u0E22\u0E41\u0E25\u0E49\u0E27\u0E02\u0E2D\u0E23\u0E31\u0E1A
+      \u0E17\u0E48\u0E32\u0E19\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E0A\u0E35\u0E27\u0E34\u0E15\u0E14\u0E49\u0E27\u0E22\u0E40\u0E2A\u0E1A\u0E35\u0E22\u0E07\u0E17\u0E35\u0E48\u0E40\u0E23\u0E32\u0E40\u0E15\u0E23\u0E35\u0E22\u0E21\u0E43\u0E2B\u0E49\u0E44\u0E14\u0E49\u0E19\u0E32\u0E19\u0E16\u0E36\u0E07
+      4 \u0E40\u0E14\u0E37\u0E2D\u0E19\u0E40\u0E25\u0E22\u0E02\u0E2D\u0E23\u0E31\u0E1A\""
+    - "\"\u0E17\u0E48\u0E32\u0E19\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E25\u0E48\u0E32\u0E2A\u0E31\u0E15\u0E27\u0E4C\u0E1B\u0E48\u0E32\u0E44\u0E14\u0E49\u0E14\u0E49\u0E27\u0E22\u0E02\u0E2D\u0E23\u0E31\u0E1A\""
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\"\u0E02\u0E2D\u0E1A\u0E43\u0E08\u0E19\u0E30 \u0E09\u0E31\u0E19\u0E08\u0E30\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08
+      \u0E09\u0E31\u0E19\u0E08\u0E30\u0E01\u0E25\u0E31\u0E1A\u0E1A\u0E49\u0E32\u0E19!\""
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\"\u0E41\u0E25\u0E30\u0E19\u0E35\u0E48\u0E04\u0E37\u0E2D\u0E14\u0E32\u0E1A\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19
+      \u0E42\u0E1B\u0E23\u0E14\u0E23\u0E31\u0E01\u0E29\u0E32\u0E15\u0E31\u0E27\""
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\"\u0E04\u0E23\u0E31\u0E1A \u0E41\u0E25\u0E49\u0E27\u0E40\u0E08\u0E2D\u0E01\u0E31\u0E19\u0E04\u0E23\u0E31\u0E1A\""
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+  - backgroundImage: {fileID: 21300000, guid: fbf0ffe4cee984d4485dc1dcc7b0adc7, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\"\u0E02\u0E2D\u0E43\u0E2B\u0E49\u0E21\u0E35\u0E0A\u0E31\u0E22\u0E17\u0E48\u0E32\u0E19\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32!!!\""
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
   responsePanel: {fileID: 121375859}
   responseButtonPrefab: {fileID: 2163112381097341029, guid: cb8bf0332ed1b9941a2aa1a871482f0d, type: 3}
 --- !u!114 &1725017624
@@ -1463,7 +1508,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 111.09213, y: 61.35829, z: 0, w: 0}
+  m_margin: {x: 111.09213, y: 61.35829, z: 100, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
