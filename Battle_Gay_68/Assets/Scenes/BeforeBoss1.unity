@@ -1064,7 +1064,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E2B\u0E37\u0E21 \u0E40\u0E08\u0E49\u0E32\u0E04\u0E37\u0E2D\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E1E\u0E27\u0E01\u0E44\u0E23\u0E49\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E19\u0E31\u0E48\u0E19\u0E2B\u0E23\u0E37\u0E2D\u201D"
+    - "\u201CHmm, are you the brave of the magicless people?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1080,8 +1080,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E40\u0E08\u0E49\u0E32\u0E44\u0E14\u0E49\u0E2A\u0E31\u0E07\u0E2B\u0E32\u0E23
-      \u0E21\u0E2D\u0E19\u0E2A\u0E40\u0E15\u0E2D\u0E23\u0E4C\u0E43\u0E19\u0E01\u0E32\u0E23\u0E1B\u0E01\u0E04\u0E23\u0E2D\u0E07\u0E02\u0E2D\u0E07\u0E02\u0E49\u0E32\u0E44\u0E1B\u0E1E\u0E2D\u0E15\u0E31\u0E27\u0E40\u0E25\u0E22\u0E19\u0E35\u0E48\u201D"
+    - "\u201CYou've killed quite a few monsters under my control.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1089,7 +1088,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E41\u0E01! \u0E41\u0E01\u0E04\u0E37\u0E2D\u0E08\u0E2D\u0E21\u0E21\u0E32\u0E23\u0E2A\u0E34\u0E19\u0E30\u201D"
+    - "\u201CYou! You are the demon lord.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1097,10 +1096,9 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E09\u0E25\u0E32\u0E14\u0E14\u0E35\u0E19\u0E35\u0E48 \u0E09\u0E31\u0E19\u0E04\u0E37\u0E2D\u0E08\u0E2D\u0E21\u0E21\u0E32\u0E23\u0E41\u0E2B\u0E48\u0E07\u0E42\u0E25\u0E2B\u0E34\u0E15 
-      \u0E1A\u0E32\u0E18\u0E32\u0E40\u0E0B\u0E25\u0E25\u0E4C\u201D"
-    - "\u201C\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32\u0E40\u0E2D\u0E4B\u0E22 \u0E08\u0E07\u0E2A\u0E31\u0E07\u0E40\u0E27\u0E22\u0E40\u0E25\u0E37\u0E2D\u0E14\u0E02\u0E2D\u0E07\u0E40\u0E08\u0E49\u0E32
-      \u0E21\u0E32\u0E40\u0E1B\u0E47\u0E19\u0E1E\u0E25\u0E31\u0E07\u0E2B\u0E25\u0E48\u0E2D\u0E40\u0E25\u0E35\u0E49\u0E22\u0E07\u0E0A\u0E35\u0E27\u0E35\u0E02\u0E2D\u0E07\u0E02\u0E49\u0E32\u0E40\u0E2A\u0E35\u0E22\u0E40\u0E16\u0E2D\u0E30!!\u201D"
+    - "\u201CYou're smart. I'm the demon lord of blood, Bathazell.\u201D"
+    - "\u201COh brave man, sacrifice your blood. Come be the power that nourishes
+      my life!!\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1108,7 +1106,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E43\u0E04\u0E23\u0E08\u0E30\u0E22\u0E2D\u0E21\u0E01\u0E31\u0E19\u0E40\u0E25\u0E48\u0E32\u201D"
+    - "\u201CWho would give in to you?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []

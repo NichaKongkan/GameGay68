@@ -13,7 +13,10 @@ public class IntroManager : MonoBehaviour
     {
         public string responseText;
         public int nextSceneIndex;
+        public int relationshipChange;  //Respone Value
     }
+
+    public int relationshipWithBoss;
 
     [System.Serializable]
     public class SceneData
@@ -25,6 +28,11 @@ public class IntroManager : MonoBehaviour
         public bool delayBackground;
         public List<Response> responses;
         public bool endSceneImmediately; // ✅ เพิ่มตัวเลือกแยกตามแต่ละ Scene
+    }
+
+    public class GameStatus
+    {
+        public static int relationshipWithBoss = 0; //Add ID Boss
     }
 
     public string sceneToGo;
@@ -53,7 +61,9 @@ public class IntroManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             NextDialogue();
-        } else if(Input.GetKeyDown(KeyCode.P)) {
+        }
+        else if (Input.GetKeyDown(KeyCode.P))
+        {
             SceneManager.LoadScene(sceneToGo);
         }
     }
@@ -205,6 +215,8 @@ public class IntroManager : MonoBehaviour
 
     void SelectResponse(int nextSceneIndex)
     {
+        //Fix Error
+        //relationshipWithBoss += response.relationshipChange;
         responsePanel.SetActive(false);
         ShowScene(nextSceneIndex);
     }

@@ -1035,6 +1035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0db437f7cf7b32b46a85ec74eb33b4a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  relationshipWithBoss: 0
   sceneToGo: World2
   dialogueCanvasGroup: {fileID: 1582410654}
   backgroundImage: {fileID: 75903987}
@@ -1060,10 +1061,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E2D\u0E36\u0E48\u0E01 \u0E17\u0E33\u0E44\u0E21\u0E01\u0E31\u0E19\u2026
-      \u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32\u0E01\u0E23\u0E30\u0E08\u0E2D\u0E01\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E08\u0E49\u0E32..
-      \u0E16\u0E36\u0E07\u0E15\u0E48\u0E2D\u0E01\u0E23\u0E01\u0E31\u0E1A\u0E02\u0E49\u0E32
-      \u0E2D\u0E36\u0E01.. \u0E44\u0E14\u0E49\u201D"
+    - "\u201CUgh... Why... is a lowly brave like you... able to fight me? Ugh...\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1071,11 +1069,9 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E1E\u0E25\u0E31\u0E07\u0E02\u0E2D\u0E07\u0E04\u0E19\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E32\u0E01\u0E01\u0E25\u0E31\u0E1A\u0E1A\u0E49\u0E32\u0E19\u0E44\u0E07\u0E40\u0E25\u0E48\u0E32\u201D"
-    - "\u201C\u0E41\u0E01\u0E21\u0E31\u0E19\u0E01\u0E47\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19
-      \u0E04\u0E32\u0E1A\u0E40\u0E23\u0E35\u0E22\u0E19\u0E04\u0E32\u0E1A\u0E2B\u0E19\u0E36\u0E48\u0E07
-      \u0E17\u0E35\u0E48\u0E09\u0E31\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E2D\u0E14\u0E17\u0E19\u0E1D\u0E48\u0E32\u0E1F\u0E31\u0E19\u0E44\u0E1B\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E22\u0E46
-      \u0E08\u0E19\u0E01\u0E27\u0E48\u0E32\u0E08\u0E30\u0E16\u0E36\u0E07\u0E40\u0E27\u0E25\u0E32\u0E01\u0E25\u0E31\u0E1A\u0E1A\u0E49\u0E32\u0E19\u0E19\u0E31\u0E48\u0E19\u0E41\u0E2B\u0E25\u0E30\u201D"
+    - "\u201CThe power of people who want to come back home.\u201D"
+    - "\u201CYou're like One class period that I have to endure and struggle through
+      Until it's time to go home.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1083,8 +1079,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E02\u0E49\u0E32\u2026 \u0E44\u0E21\u0E48\u0E40\u0E02\u0E49\u0E32\u0E43\u0E08
-      \u0E40\u0E1E\u0E35\u0E22\u0E07\u0E40\u0E17\u0E48\u0E32\u0E19\u0E35\u0E49\u0E40\u0E2D\u0E07\u0E2B\u0E23\u0E37\u0E2D\u201D"
+    - "\u201CI\u2026 don\u2019t understand. Is that all?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1092,8 +1087,8 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E2D\u0E22\u0E48\u0E32\u0E14\u0E39\u0E16\u0E39\u0E01\u0E2A\u0E34 \u0E1C\u0E21\u0E2A\u0E39\u0E49\u0E14\u0E49\u0E27\u0E22\u0E04\u0E27\u0E32\u0E21\u0E42\u0E01\u0E23\u0E18\u0E44\u0E07\u0E25\u0E48\u0E30
-      \u0E2D\u0E22\u0E39\u0E48\u0E46 \u0E01\u0E47\u0E42\u0E14\u0E19\u0E25\u0E32\u0E01\u0E21\u0E32\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E2D\u0E30\u0E44\u0E23\u0E01\u0E47\u0E44\u0E21\u0E48\u0E23\u0E39\u0E49\u201D"
+    - "\u201CDon't look down on me. I fought with anger. I'm suddenly dragged into
+      something.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1101,9 +1096,8 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E2B\u0E36 \u0E1E\u0E27\u0E01\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C\u0E42\u0E07\u0E48\u0E19\u0E31\u0E48\u0E19
-      \u0E21\u0E35\u0E1E\u0E25\u0E31\u0E07\u0E19\u0E49\u0E2D\u0E22\u0E19\u0E34\u0E14
-      \u0E41\u0E15\u0E48\u0E43\u0E1D\u0E48\u0E2A\u0E39\u0E07 \u0E40\u0E25\u0E22\u0E15\u0E49\u0E2D\u0E07\u0E1E\u0E36\u0E48\u0E07\u0E1C\u0E39\u0E49\u0E2D\u0E37\u0E48\u0E19\u0E1F\u0E14\u0E14\u0E22\u0E01\u0E32\u0E23\u0E1A\u0E31\u0E07\u0E04\u0E31\u0E1A\u0E2A\u0E34\u0E19\u0E30\u201D"
+    - "\u201CHuh, those stupid humans. Has little power, but is ambitious, so must
+      rely on others by force.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1112,7 +1106,7 @@ MonoBehaviour:
     videoClip: {fileID: 0}
     dialogues:
     - "\u201C...\u201D"
-    - "[\u0E08\u0E23\u0E34\u0E07\u0E41\u0E2E\u0E30]"
+    - '[That''s true.]'
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1120,31 +1114,23 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E40\u0E08\u0E49\u0E32.. \u0E2D\u0E36\u0E48\u0E01 \u0E21\u0E32\u0E23\u0E48\u0E27\u0E21\u0E21\u0E37\u0E2D\u0E01\u0E31\u0E1A\u0E02\u0E49\u0E32\u0E2A\u0E34
-      \u0E17\u0E33\u0E25\u0E32\u0E22\u0E1E\u0E27\u0E01\u0E44\u0E23\u0E49\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E14\u0E49\u0E2D\u0E22\u0E1B\u0E31\u0E0D\u0E0D\u0E32\u0E19\u0E31\u0E48\u0E19
-      \u0E41\u0E25\u0E49\u0E27\u0E21\u0E32\u0E1B\u0E01\u0E04\u0E23\u0E2D\u0E07\u0E1E\u0E37\u0E49\u0E19\u0E17\u0E35\u0E48\u0E2D\u0E31\u0E19\u0E2D\u0E38\u0E14\u0E21\u0E2A\u0E21\u0E1A\u0E39\u0E23\u0E13\u0E4C\u0E02\u0E2D\u0E07\u0E1E\u0E27\u0E01\u0E21\u0E31\u0E19\u0E01\u0E31\u0E1A\u0E1E\u0E27\u0E01\u0E02\u0E49\u0E32\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "A: \u201C\u0E44\u0E21\u0E48\u0E25\u0E48\u0E30 \u0E1C\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E1E\u0E36\u0E48\u0E07\u0E1E\u0E32\u0E1E\u0E27\u0E01\u0E40\u0E02\u0E32\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E42\u0E25\u0E01\u0E02\u0E2D\u0E07\u0E1C\u0E21\u201D
-      B: \u201C\u0E43\u0E04\u0E23\u0E08\u0E30\u0E40\u0E02\u0E49\u0E32\u0E1E\u0E27\u0E01\u0E01\u0E31\u0E1A\u0E1E\u0E27\u0E01\u0E08\u0E2D\u0E21\u0E21\u0E32\u0E23\u0E17\u0E35\u0E48\u0E04\u0E34\u0E14\u0E08\u0E30\u0E17\u0E33\u0E25\u0E32\u0E22\u0E42\u0E25\u0E01\u0E01\u0E31\u0E19\u0E25\u0E48\u0E30
-      \u0E1C\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E1B\u0E01\u0E1B\u0E49\u0E2D\u0E07\u0E1E\u0E27\u0E01\u0E40\u0E02\u0E32\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E1A\u0E49\u0E32\u0E19\u0E40\u0E01\u0E34\u0E14\u0E02\u0E2D\u0E07\u0E1C\u0E21\u201D "
+    - "\u201CYou... ugh, come join me, destroy those ignorant non-magicals, and rule
+      their fertile land with me.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses:
-    - responseText: A
-      nextSceneIndex: 10
-    - responseText: B
-      nextSceneIndex: 10
+    - responseText: "\u201CNo, I must rely on them to get back to my world.\u201D"
+      nextSceneIndex: 9
+      relationshipChange: 2
+    - responseText: "\u201CWho would want to join the demons who want to destroy
+        the world? I must protect them to return to my world.\u201D"
+      nextSceneIndex: 9
+      relationshipChange: 0
     endSceneImmediately: 0
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E2B\u0E36.. \u0E40\u0E08\u0E49\u0E32\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E1E\u0E27\u0E01\u0E42\u0E07\u0E48\u0E19\u0E31\u0E48\u0E19\u0E2B\u0E23\u0E37\u0E2D\u201D"
+    - "\u201CHuh.. You believe those idiots?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1152,7 +1138,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E21\u0E31\u0E19\u2026 \u0E04\u0E37\u0E2D\u0E17\u0E32\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27\u0E17\u0E35\u0E48\u0E1C\u0E21\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E44\u0E14\u0E49\u201D"
+    - "\u201CIt\u2026 is the only way I can believe it.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1160,9 +1146,8 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E40\u0E08\u0E49\u0E32\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E02\u0E49\u0E32\u0E44\u0E14\u0E49
-      \u0E40\u0E27\u0E17\u0E22\u0E4C\u0E21\u0E19\u0E15\u0E23\u0E4C\u0E17\u0E35\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1D\u0E37\u0E19\u0E04\u0E27\u0E32\u0E21\u0E40\u0E1B\u0E47\u0E19\u0E44\u0E1B\u0E02\u0E2D\u0E07\u0E42\u0E25\u0E01\u0E19\u0E48\u0E30
-      \u0E40\u0E08\u0E49\u0E32\u0E04\u0E34\u0E14\u0E27\u0E48\u0E32\u0E21\u0E31\u0E19\u0E43\u0E0A\u0E49\u0E44\u0E14\u0E49\u0E1A\u0E48\u0E2D\u0E22\u0E04\u0E23\u0E31\u0E49\u0E07\u0E07\u0E31\u0E49\u0E19\u0E2B\u0E23\u0E37\u0E2D\u201D"
+    - "\u201CYou can trust me. Do you think magic that can defy the nature of the
+      world can be used often?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1170,7 +1155,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C... \u0E1E\u0E27\u0E01\u0E40\u0E02\u0E32\u0E1A\u0E2D\u0E01\u0E15\u0E49\u0E2D\u0E07\u0E23\u0E2D\u0E40\u0E27\u0E25\u0E32\u201D"
+    - "\u201C... They said it requires waiting.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1178,11 +1163,9 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E2B\u0E36 \u0E40\u0E2D\u0E32\u0E40\u0E16\u0E2D\u0E30 \u0E40\u0E08\u0E49\u0E32\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E1E\u0E27\u0E01\u0E21\u0E31\u0E19\u0E44\u0E1B\u0E41\u0E25\u0E49\u0E27
-      \u0E02\u0E49\u0E32\u0E04\u0E07\u0E1E\u0E39\u0E14\u0E2D\u0E30\u0E44\u0E23\u0E44\u0E1B\u0E40\u0E08\u0E49\u0E32\u0E04\u0E07\u0E44\u0E21\u0E48\u0E40\u0E0A\u0E37\u0E48\u0E2D
-      \u0E21\u0E35\u0E41\u0E04\u0E48\u0E1B\u0E25\u0E32\u0E22\u0E17\u0E32\u0E07\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19
-      \u0E17\u0E35\u0E48\u0E08\u0E30\u0E1A\u0E2D\u0E01\u0E40\u0E08\u0E49\u0E32\u0E44\u0E14\u0E49\u0E27\u0E48\u0E32\u0E1C\u0E25\u0E25\u0E31\u0E1E\u0E18\u0E4C\u0E21\u0E31\u0E19\u0E14\u0E35\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48\u201D"
-    - "\u201C\u0E40\u0E2D\u0E32\u0E25\u0E48\u0E30 \u0E40\u0E08\u0E49\u0E32\u0E08\u0E30\u0E17\u0E33\u0E2D\u0E30\u0E44\u0E23\u0E01\u0E31\u0E1A\u0E02\u0E49\u0E32\u0E01\u0E47\u0E40\u0E0A\u0E34\u0E0D\u201D"
+    - "\u201CNever mind. You already believe them. I will say something you won't
+      believe. Only the end can tell you whether the outcome is good or not.\u201D"
+    - "\u201CAlright, do as you will with me.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1193,28 +1176,21 @@ MonoBehaviour:
     - "\u201C...\u201D"
     delayDialogueBox: 0
     delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "A: \u0E06\u0E48\u0E32\u0E40\u0E2D\u0E32\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E31\u0E25
-      B: \u0E1B\u0E25\u0E48\u0E2D\u0E22\u0E43\u0E2B\u0E49\u0E08\u0E2D\u0E21\u0E21\u0E32\u0E23\u0E2B\u0E19\u0E35\u0E44\u0E1B 
-      C: \u0E43\u0E0A\u0E49\u0E44\u0E2D\u0E40\u0E17\u0E21\u0E43\u0E19\u0E41\u0E2B\u0E27\u0E19\u0E01\u0E31\u0E01\u0E02\u0E31\u0E07\u0E40\u0E02\u0E32\u0E44\u0E27\u0E49\u0E43\u0E19\u0E25\u0E39\u0E01\u0E41\u0E01\u0E49\u0E27\u0E01\u0E48\u0E2D\u0E19"
-    delayDialogueBox: 0
-    delayBackground: 0
     responses:
-    - responseText: A
-      nextSceneIndex: 17
-    - responseText: B
-      nextSceneIndex: 20
-    - responseText: C
-      nextSceneIndex: 23
+    - responseText: Kill to take the crysta
+      nextSceneIndex: 15
+      relationshipChange: 0
+    - responseText: Let the demon lord escape
+      nextSceneIndex: 18
+      relationshipChange: 3
+    - responseText: Use the item in the ring to trap him in the orb
+      nextSceneIndex: 21
+      relationshipChange: 5
     endSceneImmediately: 0
   - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E02\u0E2D\u0E42\u0E17\u0E29\u0E14\u0E49\u0E27\u0E22\u201D"
+    - "\u201CI'm sorry\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1222,7 +1198,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E2D\u0E4A\u0E32\u0E01\u0E01\u0E01\u201D"
+    - "\u201CAargh!\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1239,7 +1215,7 @@ MonoBehaviour:
     videoClip: {fileID: 0}
     dialogues:
     - "\u201C...\u201D"
-    - "\u201C\u0E19\u0E32\u0E22\u0E44\u0E1B\u0E40\u0E16\u0E2D\u0E30\u201D"
+    - "\u201CYou can go.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1247,8 +1223,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E43\u0E08\u0E2D\u0E48\u0E2D\u0E19\u0E40\u0E0A\u0E48\u0E19\u0E19\u0E35\u0E49
-      \u0E40\u0E08\u0E49\u0E32\u0E40\u0E1B\u0E47\u0E19\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32\u0E43\u0E2B\u0E49\u0E1E\u0E27\u0E01\u0E21\u0E31\u0E19\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E2B\u0E23\u0E2D\u0E01\u201D"
+    - "\u201CWith such a soft heart, you can't be the brave they need.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1264,8 +1239,8 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E2B\u0E37\u0E2D \u0E40\u0E08\u0E49\u0E32\u0E08\u0E30\u0E40\u0E01\u0E47\u0E1A\u0E02\u0E49\u0E32\u0E44\u0E27\u0E49\u0E40\u0E1B\u0E47\u0E19\u0E02\u0E2D\u0E07\u0E40\u0E25\u0E48\u0E19\u0E40\u0E08\u0E49\u0E32\u0E2B\u0E23\u0E37\u0E2D
-      \u0E02\u0E2D\u0E16\u0E2D\u0E19\u0E04\u0E33\u0E1E\u0E39\u0E14 \u0E0A\u0E48\u0E32\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32\u0E17\u0E35\u0E48\u0E23\u0E49\u0E32\u0E22\u0E01\u0E32\u0E08\u0E40\u0E2A\u0E35\u0E22\u0E08\u0E23\u0E34\u0E07\u201D"
+    - "\u201CHuh, you intend to keep me as your plaything? I take back what I said,
+      you are quite a formidable brave\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1273,7 +1248,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C\u0E2D\u0E22\u0E39\u0E48\u0E40\u0E07\u0E35\u0E22\u0E1A\u0E46 \u0E40\u0E16\u0E2D\u0E30\u201D"
+    - "\u201CStay quiet.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
