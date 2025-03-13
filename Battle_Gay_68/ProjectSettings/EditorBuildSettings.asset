@@ -27,14 +27,23 @@ EditorBuildSettings:
     path: Assets/Scenes/BeforeBoss1.unity
     guid: b7c4133d3256c264ab55056e853db855
   - enabled: 1
-    path: Assets/Scenes/MapBoss1.unity
-    guid: be563b7ea8800b44d8648b9b8dd05a0e
-  - enabled: 1
     path: Assets/Scenes/Boss1.unity
     guid: abd034297fd6be84cb36de980d8dce59
   - enabled: 1
     path: Assets/Scenes/WinBoss1.unity
     guid: aebcd91dca52e3342a73bdb317d0bc7e
+  - enabled: 1
+    path: Assets/Scenes/World2.unity
+    guid: 61f912c989144c140a085b2369167b5a
+  - enabled: 1
+    path: Assets/Scenes/3MatchGame/monsterD.unity
+    guid: 7b70a403b06a0d94fa3532839652ace3
+  - enabled: 1
+    path: Assets/Scenes/3MatchGame/monsterE.unity
+    guid: b987098784cd175489592f4abe60adc6
+  - enabled: 1
+    path: Assets/Scenes/3MatchGame/monsterF.unity
+    guid: b33470a9371a6494aa4e2bcb822c50e8
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 25936d5291b305048bd67badabadc7ef, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 1f63a52a0af90494bac11b1a84bb674d, type: 2}

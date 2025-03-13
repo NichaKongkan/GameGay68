@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting.Generated.PropertyProviders;
-using UnityEditor.Localization.Plugins.XLIFF.V20;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -22,11 +20,21 @@ public class GameManager : MonoBehaviour
     public TMP_Text movesTxt;
     public TMP_Text goalTxt;
 
-    public static string[] allMonsterIDs = { "A", "B", "C" };
+    public static int currentWorld = 1;
+
+    public static Dictionary<int, string[]> worldMonsters = new Dictionary<int, string[]>()
+    {
+        { 1, new string[] { "A", "B", "C" } },
+        { 2, new string[] { "D", "E", "F" } },
+        { 3, new string[] { "G", "H", "I" } }
+    };
+
+    private string[] activeMonsters;
 
     private void Awake()
     {
         Instance = this;
+        activeMonsters = worldMonsters[currentWorld];
     }
 
     public void Initialize(int _moves, int _goal)
@@ -35,7 +43,6 @@ public class GameManager : MonoBehaviour
         goal = _goal;
     }
 
-    // Update is called once per frame
     void Update()
     {
         pointsTxt.text = "Potions: " + points.ToString();
@@ -44,80 +51,75 @@ public class GameManager : MonoBehaviour
 
         if ((PlayerPrefs.GetInt("isWin_" + puzzleID) == 1 || moves == 0) && Input.GetKeyDown(KeyCode.Space))
         {
-            SceneManager.LoadScene(sceneToGo);   // 🔹 ถ้าไม่ใช่ Boss → กลับไป Sample1
-
+            SceneManager.LoadScene(sceneToGo);  
         }
+
         CheckAllMonstersIsDead();
     }
 
     public void ProcessTurn(int _pointsToGain, bool _subtractMoves)
     {
-
         points += _pointsToGain;
         if (_subtractMoves)
             moves--;
 
-
         if (points >= goal)
         {
-            //win the game
-            PlayerPrefs.SetInt("isWin_" + puzzleID, 1); // Save win status
+            PlayerPrefs.SetInt("isWin_" + puzzleID, 1); 
             PlayerPrefs.Save();
-            Debug.Log("Win" + puzzleID + "Status Saved: " + PlayerPrefs.GetInt("isWin_" + puzzleID));
 
             backgroundPanel.SetActive(true);
             victoryPanel.SetActive(true);
             PotionBoard.Instance.potionParent.SetActive(false);
             return;
-
         }
+
         if (moves == 0)
         {
-            //lose the game
-            PlayerPrefs.SetInt("isWin_" + puzzleID, 0); // Save lose status
+            PlayerPrefs.SetInt("isWin_" + puzzleID, 0); 
             PlayerPrefs.Save();
-            Debug.Log("Lose Status Saved: " + PlayerPrefs.GetInt("isWin_" + puzzleID));
 
             backgroundPanel.SetActive(true);
             losePanel.SetActive(true);
             PotionBoard.Instance.potionParent.SetActive(false);
 
-            if (puzzleID == "Boss_1")
-            {
-                ResetMonsterStatus(); // 🔹 รีเซ็ตมอนสเตอร์ให้กลับมาเกิดใหม่
-                SceneManager.LoadScene("Sample1"); // 🔹 ถ้าแพ้ Boss → โหลดไป Sample1
-            }
+            // 🔹 กลับไป World ปัจจุบันเมื่อแพ้
+            SceneManager.LoadScene($"World{currentWorld}");
             return;
         }
     }
 
     private void CheckAllMonstersIsDead()
     {
-        foreach (string id in allMonsterIDs)
+        foreach (string id in activeMonsters)
         {
-            if ((PlayerPrefs.GetInt("isWin_" + id)) != 1)
+            if (PlayerPrefs.GetInt("isWin_" + id) != 1)
             {
                 return;
             }
         }
 
-        Debug.Log("All monsers are dead, go to another world");
-        List<string> monsterList = new List<string>(allMonsterIDs); // Convert array to List
-        monsterList.Add("D"); // Append "D"
-        allMonsterIDs = monsterList.ToArray(); // Convert back to array
-        Debug.Log(string.Join(", ", allMonsterIDs));
-        SceneManager.LoadScene("BeforeBoss1");                  //<----- Load Scene to another world
+        Debug.Log("All monsters are dead in World" + currentWorld);
 
+        if (worldMonsters.ContainsKey(currentWorld))
+        {
+            activeMonsters = worldMonsters[currentWorld];
+            SceneManager.LoadScene($"BeforeBoss{currentWorld}");
+            currentWorld++;
+        }
+        else
+        {
+            Debug.Log("All worlds completed!");
+        }
     }
 
     private void ResetMonsterStatus()
     {
-        foreach (string id in allMonsterIDs)
+        foreach (string id in worldMonsters[currentWorld])
         {
-            PlayerPrefs.SetInt("isWin_" + id, 0); // 🔹 รีเซ็ตให้มอนทุกตัวเกิดใหม่
+            PlayerPrefs.SetInt("isWin_" + id, 0); 
         }
         PlayerPrefs.Save();
-        Debug.Log("All monsters have been reset!");
+        Debug.Log("All monsters in World " + currentWorld + " have been reset!");
     }
-
 }
