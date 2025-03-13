@@ -1041,7 +1041,7 @@ MonoBehaviour:
     videoClip: {fileID: 0}
     dialogues:
     - 
-    - "\"\u0E2D\u0E37\u0E21\u2026.\""
+    - "\u201DHmm\u201D"
     delayDialogueBox: 1
     delayBackground: 0
     responses: []
@@ -1049,7 +1049,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 06fe0cfb6435fcf4db2d63bb4f9c3e59, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E17\u0E48\u0E32\u0E19\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32 \u0E17\u0E48\u0E32\u0E19\u0E15\u0E37\u0E48\u0E19\u0E41\u0E25\u0E49\u0E27!\""
+    - "\u201DBrave, you're awake!\u201D"
     delayDialogueBox: 0
     delayBackground: 1
     responses: []
@@ -1058,8 +1058,7 @@ MonoBehaviour:
     videoClip: {fileID: 0}
     dialogues:
     - '!!!!??'
-    - "\"\u0E1E\u0E27\u0E01\u0E04\u0E38\u0E13\u0E04\u0E37\u0E2D\u0E43\u0E04\u0E23\u0E01\u0E31\u0E19
-      \u0E41\u0E25\u0E49\u0E27\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\u0E04\u0E37\u0E2D\u0E17\u0E35\u0E48\u0E44\u0E2B\u0E19\""
+    - "\u201DWho are you? Where is this place?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1067,12 +1066,9 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 6d4293cb95172c34fafd0e4e5df60532, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E17\u0E48\u0E32\u0E19\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32 \u0E42\u0E1B\u0E23\u0E14\u0E43\u0E08\u0E40\u0E22\u0E47\u0E19\u0E01\u0E48\u0E2D\u0E19
-      \u0E1E\u0E27\u0E01\u0E40\u0E23\u0E32\u0E04\u0E37\u0E2D\u0E19\u0E31\u0E01\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E02\u0E2D\u0E07\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E44\u0E1E\u0E44\u0E19\u0E17\u0E4C\""
-    - "\"\u0E01\u0E23\u0E30\u0E1C\u0E21 \u0E0A\u0E37\u0E48\u0E2D \u0E1A\u0E32\u0E2A\u0E15\u0E4C
-      \u0E40\u0E1B\u0E47\u0E19\u0E1C\u0E39\u0E49\u0E19\u0E33\u0E2B\u0E2D\u0E04\u0E2D\u0E22\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E21\u0E19\u0E15\u0E23\u0E4C
-      \u0E41\u0E2B\u0E48\u0E07\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E44\u0E1E\u0E44\u0E19\u0E17\u0E4C
-      \u0E02\u0E2D\u0E23\u0E31\u0E1A\""
+    - "\u201DBrave, please calm down. We are magicians of the Painite Kingdom.\u201D"
+    - "\u201DMy name is Bast, and I am the leader of the Magic Tower of the Painite
+      Kingdom.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1080,9 +1076,8 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 47a817f4a5c883f498e69bba0a2b966c, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "[\u0E19\u0E35\u0E48\u0E04\u0E37\u0E2D\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E41\u0E01\u0E25\u0E49\u0E07\u0E04\u0E19\u0E2B\u0E23\u0E37\u0E2D\u0E40\u0E1B\u0E25\u0E48\u0E32
-      \u0E09\u0E31\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E15\u0E32\u0E21\u0E19\u0E49\u0E33\u0E44\u0E1B\u0E01\u0E48\u0E2D\u0E19\u0E44\u0E2B\u0E21\u0E40\u0E19\u0E35\u0E48\u0E22]"
-    - "\"\u0E2D\u0E48\u0E32\u0E32 \u0E07\u0E31\u0E49\u0E19\u0E1C\u0E21\u0E21\u0E32\u0E2D\u0E22\u0E39\u0E48\u0E44\u0E14\u0E49\u0E22\u0E31\u0E07\u0E44\u0E07\u0E04\u0E23\u0E31\u0E1A\""
+    - '[Is this a prank show? Should I go with the flow?]'
+    - "\u201DAh, then how did I get here?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1090,9 +1085,8 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 6d4293cb95172c34fafd0e4e5df60532, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E1E\u0E27\u0E01\u0E40\u0E23\u0E32\u0E44\u0E14\u0E49\u0E43\u0E0A\u0E49\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E21\u0E19\u0E15\u0E23\u0E4C\u0E2D\u0E31\u0E0D\u0E40\u0E0A\u0E34\u0E0D\u0E17\u0E48\u0E32\u0E19\u0E08\u0E32\u0E01\u0E42\u0E25\u0E01\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19
-      \u0E21\u0E32\u0E22\u0E31\u0E07\u0E42\u0E25\u0E01\u0E43\u0E1A\u0E19\u0E35\u0E49
-      \u0E01\u0E30\u0E23\u0E31\u0E15\u0E41\u0E25\u0E19\u0E14\u0E4C \u0E19\u0E31\u0E48\u0E19\u0E01\u0E47\u0E40\u0E1E\u0E23\u0E32\u0E30\u0E1E\u0E27\u0E01\u0E40\u0E23\u0E32\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E04\u0E27\u0E32\u0E21\u0E0A\u0E48\u0E27\u0E22\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E08\u0E32\u0E01\u0E17\u0E48\u0E32\u0E19\""
+    - "\u201DWe used magic to summon you from your world to this world, Karatland,
+      because we needed your help.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1100,7 +1094,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 47a817f4a5c883f498e69bba0a2b966c, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E2D\u0E38\u0E4A\u0E1B\u0E0B\u0E4C! 55555555555555\""
+    - '"Oops! HAHAHAHAHAHAHAHAHA!"'
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1116,11 +1110,8 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 47a817f4a5c883f498e69bba0a2b966c, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E2E\u0E48\u0E32\u0E2E\u0E48\u0E32 \u0E42\u0E17\u0E29\u0E17\u0E35\u0E46
-      \u0E21\u0E31\u0E19\u0E15\u0E25\u0E01\u0E21\u0E32\u0E01\u0E19\u0E48\u0E30\""
-    - "\"\u0E19\u0E35\u0E48\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E2D\u0E30\u0E44\u0E23\u0E07\u0E31\u0E49\u0E19\u0E2B\u0E23\u0E2D
-      \u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\u0E04\u0E37\u0E2D\u0E2A\u0E15\u0E39\u0E14\u0E34\u0E42\u0E2D\u0E43\u0E0A\u0E48\u0E21\u0E31\u0E49\u0E22
-      \u0E2A\u0E15\u0E39\u0E02\u0E49\u0E32\u0E07\u0E46 \u0E43\u0E0A\u0E48\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E23\u0E49\u0E2D\u0E07\u0E02\u0E49\u0E32\u0E21\u0E01\u0E33\u0E1A\u0E31\u0E07\u0E2B\u0E23\u0E37\u0E2D\u0E40\u0E1B\u0E25\u0E48\u0E32\""
+    - "\u201DHaha, sorry, that's so funny.\u201D"
+    - "\u201DWhat variety show is this? Is this a studio?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1128,9 +1119,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 6d4293cb95172c34fafd0e4e5df60532, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E17\u0E48\u0E32\u0E19\u0E2B\u0E21\u0E32\u0E22\u0E04\u0E27\u0E32\u0E21\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E44\u0E23
-      \u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\u0E04\u0E37\u0E2D\u0E2B\u0E49\u0E2D\u0E07\u0E23\u0E31\u0E1A\u0E41\u0E02\u0E01
-      \u0E41\u0E2B\u0E48\u0E07\u0E23\u0E32\u0E0A\u0E27\u0E31\u0E07\u0E02\u0E2D\u0E23\u0E31\u0E1A\""
+    - "\u201DWhat do you mean? This is the reception room of the palace.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1139,8 +1128,7 @@ MonoBehaviour:
     videoClip: {fileID: 0}
     dialogues:
     - "\u2026 "
-    - "[\u0E17\u0E33\u0E44\u0E21\u0E1E\u0E27\u0E01\u0E40\u0E02\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E15\u0E32\u0E40\u0E04\u0E23\u0E35\u0E22\u0E14\u0E01\u0E31\u0E19\u0E08\u0E19\u0E32\u0E14\u0E19\u0E31\u0E49\u0E19
-      \u0E2A\u0E21\u0E1A\u0E17\u0E1A\u0E32\u0E17\u0E01\u0E31\u0E19\u0E08\u0E31\u0E07\u0E41\u0E2E\u0E30]"
+    - '[Why do they look so serious? They look so perfect for their roles.]'
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1148,10 +1136,8 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 6d4293cb95172c34fafd0e4e5df60532, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E2D\u0E32\u0E08\u0E1F\u0E31\u0E07\u0E14\u0E39\u0E44\u0E21\u0E48\u0E19\u0E48\u0E32\u0E40\u0E0A\u0E37\u0E48\u0E2D
-      \u0E41\u0E15\u0E48\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\u0E44\u0E21\u0E48\u0E43\u0E0A\u0E48\u0E42\u0E25\u0E01\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19\u0E08\u0E23\u0E34\u0E07\u0E46
-      \u0E04\u0E23\u0E31\u0E1A\""
-    - "\"\u0E44\u0E21\u0E48\u0E23\u0E39\u0E49\u0E27\u0E48\u0E32\u0E19\u0E35\u0E48\u0E08\u0E30\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E44\u0E02\u0E02\u0E49\u0E2D\u0E2A\u0E07\u0E2A\u0E31\u0E22\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19\u0E44\u0E14\u0E49\u0E21\u0E32\u0E01\u0E19\u0E49\u0E2D\u0E22\u0E40\u0E17\u0E48\u0E32\u0E44\u0E2B\u0E23\u0E48\""
+    - "\u201DIt may sound unbelievable, but this is not really your world.\u201D"
+    - "\u201DI don't know how much this will clear up your doubts.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1167,7 +1153,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 41050786d7837144f8903dc9c211f783, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "[\u0E40\u0E14\u0E34\u0E19\u0E44\u0E1B\u0E40\u0E1B\u0E34\u0E14\u0E21\u0E48\u0E32\u0E19]"
+    - '[He walk to open the curtains]'
     delayDialogueBox: 0
     delayBackground: 1
     responses: []
@@ -1175,8 +1161,8 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 9ce8f8ce77db1004b977af1b9e82e38c, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E2D\u0E48\u0E32 \u0E41\u0E25\u0E49\u0E27\u0E09\u0E31\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E17\u0E33\u0E22\u0E31\u0E07\u0E44\u0E07\u0E15\u0E48\u0E2D\u0E2B\u0E23\u0E2D\""
-    - "[\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E27\u0E48\u0E32\u0E09\u0E31\u0E19\u0E08\u0E30\u0E0B\u0E27\u0E22\u0E0B\u0E30\u0E41\u0E25\u0E49\u0E27]"
+    - "\u201DOhh\u2026   So what should I do next?\u201D "
+    - '[It seems like I''m in trouble.]'
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1200,7 +1186,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 12263b74fb3f88b41899afb99704b6b4, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E19\u0E35\u0E48\u0E04\u0E37\u0E2D\u0E17\u0E48\u0E32\u0E19\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32\u0E02\u0E2D\u0E23\u0E31\u0E1A\u0E2D\u0E07\u0E04\u0E4C\u0E23\u0E32\u0E0A\u0E32"
+    - "\u201DThis is our brave, Majesty.\u201D"
     delayDialogueBox: 1
     delayBackground: 0
     responses: []
@@ -1208,7 +1194,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 13de973fab121ec478e40120a200a394, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E2A.. \u0E2A\u0E27\u0E31\u0E2A\u0E14\u0E35\u0E04\u0E23\u0E31\u0E1A\""
+    - "\u201DG\u2026 Good afternoon\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1216,21 +1202,14 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: d975d8cc88af18749942dd4d48fd6791, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E22\u0E34\u0E19\u0E14\u0E35\u0E17\u0E35\u0E48\u0E44\u0E14\u0E49\u0E1E\u0E1A\u0E2B\u0E19\u0E49\u0E32
-      \u0E17\u0E48\u0E32\u0E19\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32\""
-    - "\"\u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49\u0E17\u0E48\u0E32\u0E19\u0E04\u0E07\u0E2A\u0E31\u0E1A\u0E2A\u0E19\u0E40\u0E1B\u0E47\u0E19\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E21\u0E32\u0E01
-      \u0E40\u0E23\u0E32\u0E08\u0E30\u0E40\u0E1B\u0E47\u0E19\u0E1C\u0E39\u0E49\u0E44\u0E02\u0E02\u0E49\u0E2D\u0E02\u0E49\u0E2D\u0E07\u0E43\u0E08\u0E43\u0E2B\u0E49\u0E17\u0E48\u0E32\u0E19\u0E40\u0E2D\u0E07\""
-    - "\"\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\u0E04\u0E37\u0E2D\u0E01\u0E30\u0E23\u0E31\u0E15\u0E41\u0E25\u0E19\u0E14\u0E4C
-      \u0E40\u0E23\u0E32\u0E04\u0E37\u0E2D\u0E1C\u0E39\u0E49\u0E40\u0E1B\u0E47\u0E19\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E0A\u0E32\u0E41\u0E2B\u0E48\u0E07\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E44\u0E1E\u0E44\u0E19\u0E17\u0E4C
-      \u0E40\u0E23\u0E32\u0E21\u0E35\u0E19\u0E32\u0E21\u0E27\u0E48\u0E32 \u0E2D\u0E40\u0E25\u0E47\u0E01\u0E0B\u0E4C\""
-    - "\"\u0E17\u0E35\u0E48\u0E40\u0E23\u0E32\u0E15\u0E49\u0E2D\u0E07\u0E2D\u0E31\u0E19\u0E40\u0E0A\u0E34\u0E0D\u0E17\u0E48\u0E32\u0E19\u0E21\u0E32
-      \u0E40\u0E19\u0E37\u0E48\u0E2D\u0E07\u0E08\u0E32\u0E01\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32
-      \u0E0B\u0E36\u0E48\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E02\u0E2D\u0E07\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C\u0E17\u0E35\u0E48\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E2D\u0E22\u0E39\u0E48\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E41\u0E2B\u0E48\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27\u0E19\u0E35\u0E49
-      \u0E40\u0E01\u0E23\u0E32\u0E30\u0E1B\u0E49\u0E2D\u0E07\u0E01\u0E31\u0E19\u0E02\u0E2D\u0E07\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E40\u0E23\u0E32\u0E01\u0E33\u0E25\u0E31\u0E07\u0E08\u0E30\u0E1E\u0E31\u0E07\u0E25\u0E07\""
-    - "\"\u0E17\u0E35\u0E48\u0E40\u0E23\u0E32\u0E15\u0E49\u0E2D\u0E07\u0E2D\u0E31\u0E19\u0E40\u0E0A\u0E34\u0E0D\u0E17\u0E48\u0E32\u0E19\u0E21\u0E32
-      \u0E40\u0E19\u0E37\u0E48\u0E2D\u0E07\u0E08\u0E32\u0E01\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32
-      \u0E0B\u0E36\u0E48\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E02\u0E2D\u0E07\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C\u0E17\u0E35\u0E48\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E2D\u0E22\u0E39\u0E48\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E41\u0E2B\u0E48\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27\u0E19\u0E35\u0E49
-      \u0E40\u0E01\u0E23\u0E32\u0E30\u0E1B\u0E49\u0E2D\u0E07\u0E01\u0E31\u0E19\u0E02\u0E2D\u0E07\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E40\u0E23\u0E32\u0E01\u0E33\u0E25\u0E31\u0E07\u0E08\u0E30\u0E1E\u0E31\u0E07\u0E25\u0E07\""
+    - "\u201CNice to meet you, my brave. You must be very confused now. Let me solve
+      your doubts.\u201D "
+    - "\u201CThis is Karatland. I am the king of the Pineite Kingdom. My name is
+      Alex.\u201D"
+    - "\u201CWe have to invite you. Because our kingdom, the only remaining kingdom
+      of man, is about to collapse.\u201D"
+    - "\u201DWe therefore need you to collect the crystals, which are the source
+      of the magical power that creates a protective shield for our kingdom.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1238,8 +1217,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 10d4519a19e5fe64eae89d74fcdcfdbf, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E14\u0E30 \u0E40\u0E14\u0E35\u0E4B\u0E22\u0E27\u0E19\u0E30\u0E04\u0E23\u0E31\u0E1A
-      \u0E41\u0E25\u0E49\u0E27\u0E17\u0E33\u0E44\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E1C\u0E21\""
+    - "\u201DW-wait, why me?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1247,8 +1225,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: d975d8cc88af18749942dd4d48fd6791, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E40\u0E23\u0E32\u0E40\u0E2D\u0E07\u0E01\u0E47\u0E44\u0E21\u0E48\u0E17\u0E23\u0E32\u0E1A\u0E27\u0E48\u0E32\u0E17\u0E33\u0E44\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E17\u0E48\u0E32\u0E19
-      \u0E04\u0E07\u0E21\u0E35\u0E41\u0E15\u0E48\u0E42\u0E0A\u0E04\u0E0A\u0E30\u0E15\u0E32\u0E17\u0E35\u0E48\u0E08\u0E30\u0E15\u0E2D\u0E1A\u0E40\u0E23\u0E32\u0E44\u0E14\u0E49\""
+    - "\u201DWe don't know why it has to be you. Only fate can answer us.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1256,7 +1233,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 10d4519a19e5fe64eae89d74fcdcfdbf, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E41\u0E25\u0E49\u0E27\u0E1C\u0E21\u0E08\u0E30\u0E2B\u0E32\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E31\u0E25\u0E1E\u0E27\u0E01\u0E19\u0E31\u0E49\u0E19\u0E44\u0E14\u0E49\u0E08\u0E32\u0E01\u0E44\u0E2B\u0E19\""
+    - "\u201DWhere can I find those crystals?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1264,8 +1241,8 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: d975d8cc88af18749942dd4d48fd6791, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E43\u0E19\u0E23\u0E48\u0E32\u0E07\u0E01\u0E32\u0E22\u0E02\u0E2D\u0E07\u0E40\u0E1C\u0E48\u0E32\u0E21\u0E32\u0E23\u0E41\u0E25\u0E30\u0E2D\u0E2A\u0E39\u0E23\u0E08\u0E30\u0E21\u0E35\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E31\u0E25\u0E2D\u0E22\u0E39\u0E48
-      \u0E21\u0E35\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E08\u0E2D\u0E21\u0E21\u0E32\u0E23\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E25\u0E32\u0E22\u0E17\u0E35\u0E48\u0E21\u0E35\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E31\u0E25\u0E17\u0E35\u0E48\u0E40\u0E23\u0E32\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\""
+    - "\u201CThe bodies of demons and beasts contain crystals. Only the demon lords
+      have the crystals we need.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1273,8 +1250,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 10d4519a19e5fe64eae89d74fcdcfdbf, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E1C\u0E21\u0E17\u0E33\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E2B\u0E23\u0E2D\u0E01!!
-      \u0E1C\u0E21\u0E44\u0E21\u0E48\u0E40\u0E04\u0E22\u0E15\u0E48\u0E2D\u0E2A\u0E39\u0E49\u0E21\u0E32\u0E01\u0E48\u0E2D\u0E19\""
+    - "\u201DI can't do it!! I've never fought before.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1282,8 +1258,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: d975d8cc88af18749942dd4d48fd6791, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E17\u0E48\u0E32\u0E19\u0E17\u0E33\u0E44\u0E14\u0E49\u0E41\u0E19\u0E48\u0E19\u0E2D\u0E19
-      \u0E42\u0E1B\u0E23\u0E14\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E43\u0E19\u0E42\u0E0A\u0E04\u0E0A\u0E30\u0E15\u0E32\""
+    - "\u201DYou can do it. Please believe in fate.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1291,10 +1266,8 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 10d4519a19e5fe64eae89d74fcdcfdbf, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E1A\u0E49\u0E32\u0E44\u0E1B\u0E41\u0E25\u0E49\u0E27!! \u0E42\u0E0A\u0E04\u0E0A\u0E30\u0E15\u0E32\u0E1A\u0E49\u0E32\u0E1A\u0E2D\u0E2D\u0E30\u0E44\u0E23\u0E01\u0E31\u0E19!
-      \u0E1C\u0E21\u0E2D\u0E22\u0E32\u0E01\u0E01\u0E25\u0E31\u0E1A\u0E1A\u0E49\u0E32\u0E19!!!!\""
-    - "\"\u0E1C\u0E21\u0E44\u0E21\u0E48\u0E21\u0E35\u0E17\u0E32\u0E07\u0E17\u0E33\u0E44\u0E14\u0E49
-      \u0E02\u0E2D\u0E23\u0E49\u0E2D\u0E07\u0E25\u0E48\u0E30\u0E2A\u0E48\u0E07\u0E1C\u0E21\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E42\u0E25\u0E01\u0E02\u0E2D\u0E07\u0E1C\u0E21!\""
+    - "\u201DThis is crazy!! What the hell is this fate! I want to go home!!!!\u201D"
+    - "\u201DI can't do it. Please send me back to my world!\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1302,15 +1275,11 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: d975d8cc88af18749942dd4d48fd6791, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E04\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E44\u0E1B\u0E44\u0E14\u0E49\u0E22\u0E32\u0E01
-      \u0E1E\u0E25\u0E31\u0E07\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E08\u0E32\u0E01\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E31\u0E25\u0E17\u0E35\u0E48\u0E19\u0E33\u0E17\u0E48\u0E32\u0E19\u0E21\u0E32
-      \u0E08\u0E30\u0E01\u0E25\u0E31\u0E1A\u0E21\u0E32\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E44\u0E14\u0E49\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E43\u0E19\u0E2D\u0E35\u0E01
-      1 \u0E1B\u0E35\u0E02\u0E49\u0E32\u0E07\u0E2B\u0E19\u0E49\u0E32 \u0E41\u0E15\u0E48\u0E19\u0E31\u0E48\u0E19\u0E44\u0E21\u0E48\u0E17\u0E31\u0E19\u0E01\u0E32\u0E23\u0E41\u0E19\u0E48
-      \u0E40\u0E01\u0E23\u0E32\u0E30\u0E02\u0E2D\u0E07\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E40\u0E23\u0E32\u0E08\u0E30\u0E04\u0E07\u0E2D\u0E22\u0E39\u0E48\u0E15\u0E48\u0E2D\u0E44\u0E14\u0E49\u0E2D\u0E35\u0E01\u0E40\u0E1E\u0E35\u0E22\u0E07
-      10 \u0E40\u0E14\u0E37\u0E2D\u0E19\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19\""
-    - "\"\u0E2B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E32\u0E30\u0E02\u0E2D\u0E07\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E1E\u0E31\u0E07\u0E17\u0E25\u0E32\u0E22\u0E25\u0E07
-      \u0E2A\u0E34\u0E48\u0E07\u0E21\u0E35\u0E0A\u0E35\u0E27\u0E34\u0E15\u0E0A\u0E31\u0E48\u0E27\u0E23\u0E49\u0E32\u0E22\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E25\u0E32\u0E22\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E02\u0E49\u0E32\u0E21\u0E32\u0E1E\u0E31\u0E07\u0E17\u0E38\u0E01\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E41\u0E19\u0E48
-      \u0E1E\u0E27\u0E01\u0E19\u0E31\u0E49\u0E19\u0E40\u0E01\u0E25\u0E35\u0E22\u0E14\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C\u0E17\u0E35\u0E48\u0E44\u0E21\u0E48\u0E21\u0E35\u0E1E\u0E25\u0E31\u0E07\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E23\u0E32\""
+    - "\u201DIt is unlikely. The magic power from the crystal that brought you here
+      will be usable again in a year. But that will be too late, our kingdom's armor
+      will only last for ten months.\u201D"
+    - "\u201DIf the kingdom's armor collapses, evil creatures will surely come and
+      destroy everything. They hate humans without magic like us.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1318,7 +1287,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 10d4519a19e5fe64eae89d74fcdcfdbf, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E1E\u0E27\u0E01\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E21\u0E35\u0E1E\u0E25\u0E31\u0E07\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E07\u0E31\u0E49\u0E19\u0E2B\u0E23\u0E2D\""
+    - "\u201DYou don't have magic?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1326,8 +1295,8 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: d975d8cc88af18749942dd4d48fd6791, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E2B\u0E32\u0E01\u0E40\u0E23\u0E32\u0E21\u0E35\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E31\u0E25\u0E08\u0E30\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E1E\u0E25\u0E31\u0E07\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E44\u0E14\u0E49
-      \u0E19\u0E31\u0E48\u0E19\u0E04\u0E37\u0E2D\u0E40\u0E2B\u0E15\u0E38\u0E1C\u0E25\u0E17\u0E35\u0E48\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E21\u0E32\u0E23\u0E17\u0E35\u0E48\u0E21\u0E35\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E31\u0E25\u0E2D\u0E22\u0E39\u0E48\u0E20\u0E32\u0E22\u0E43\u0E19\u0E23\u0E48\u0E32\u0E07\u0E01\u0E32\u0E22\u0E08\u0E36\u0E07\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E21\u0E19\u0E15\u0E23\u0E4C\u0E44\u0E14\u0E49\u0E15\u0E32\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\""
+    - "\u201DIf we have crystals, we can use magic. That's why devils with crystals
+      in their bodies can use magic at will.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1335,8 +1304,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 10d4519a19e5fe64eae89d74fcdcfdbf, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E41\u0E25\u0E49\u0E27\u0E1C\u0E21\u0E08\u0E30\u0E2A\u0E39\u0E49\u0E01\u0E31\u0E1A\u0E1E\u0E27\u0E01\u0E19\u0E31\u0E49\u0E19\u0E44\u0E14\u0E49\u0E22\u0E31\u0E07\u0E44\u0E07
-      \u0E1C\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E15\u0E32\u0E22\u0E41\u0E19\u0E48 \u0E1C\u0E21\u0E44\u0E21\u0E48\u0E21\u0E35\u0E40\u0E27\u0E17\u0E22\u0E4C\u0E21\u0E19\u0E15\u0E23\u0E4C\""
+    - "\u201DHow can I fight them? I will definitely die. I have no magic.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1344,12 +1312,10 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: d975d8cc88af18749942dd4d48fd6791, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E17\u0E48\u0E32\u0E19\u0E21\u0E35\u0E1E\u0E23\u0E08\u0E32\u0E01\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E31\u0E25\u0E17\u0E35\u0E48\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E17\u0E48\u0E32\u0E19\u0E21\u0E32\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48
-      \u0E17\u0E33\u0E43\u0E2B\u0E49\u0E17\u0E48\u0E32\u0E19\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E2A\u0E35\u0E22\u0E0A\u0E35\u0E27\u0E34\u0E15\u0E44\u0E14\u0E49
-      \u0E08\u0E19\u0E01\u0E27\u0E48\u0E32\u0E04\u0E23\u0E34\u0E2A\u0E15\u0E31\u0E25\u0E08\u0E30\u0E40\u0E2A\u0E37\u0E48\u0E2D\u0E21\u0E25\u0E07\u0E2B\u0E23\u0E37\u0E2D\u0E08\u0E19\u0E01\u0E27\u0E48\u0E32\u0E17\u0E48\u0E32\u0E19\u0E08\u0E30\u0E44\u0E21\u0E48\u0E2D\u0E22\u0E39\u0E48\u0E1A\u0E19\u0E42\u0E25\u0E01\u0E43\u0E1A\u0E19\u0E35\u0E49\u0E41\u0E25\u0E49\u0E27\""
-    - "\"\u0E41\u0E25\u0E30\u0E40\u0E23\u0E32\u0E08\u0E30\u0E21\u0E2D\u0E1A\u0E14\u0E32\u0E1A\u0E28\u0E31\u0E01\u0E14\u0E34\u0E4C\u0E2A\u0E34\u0E17\u0E18\u0E34\u0E4C\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19\u0E17\u0E35\u0E48\u0E08\u0E30\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E44\u0E14\u0E49
-      \u0E14\u0E32\u0E40\u0E25\u0E48\u0E21\u0E19\u0E31\u0E49\u0E19\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E06\u0E48\u0E32\u0E1F\u0E31\u0E19\u0E44\u0E14\u0E49\u0E17\u0E38\u0E01\u0E2A\u0E34\u0E48\u0E07
-      \u0E02\u0E36\u0E49\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E01\u0E31\u0E1A\u0E04\u0E27\u0E32\u0E21\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E21\u0E31\u0E48\u0E19\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19\""
+    - "\u201DYou have a blessing from the crystal that chose you here. You cannot
+      die until the crystal is depleted or until you are no longer in this world.\u201D"
+    - "\u201DAnd we will give you a sacred sword that only the brave can use. That
+      sword can kill anything. It depends on your belief.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1357,7 +1323,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 10d4519a19e5fe64eae89d74fcdcfdbf, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E1C\u0E21\u0E44\u0E21\u0E48\u0E21\u0E35\u0E17\u0E32\u0E07\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E2A\u0E34\u0E19\u0E30\u2026\""
+    - "\u201DI have no choice, huh\u2026\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1365,7 +1331,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: d975d8cc88af18749942dd4d48fd6791, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E42\u0E1B\u0E23\u0E14\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E21\u0E31\u0E48\u0E19\u0E43\u0E19\u0E15\u0E31\u0E27\u0E17\u0E48\u0E32\u0E19\u0E40\u0E2D\u0E07\""
+    - "\u201DPlease believe in yourself.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1374,7 +1340,7 @@ MonoBehaviour:
     videoClip: {fileID: 0}
     dialogues:
     - 
-    - "7 \u0E27\u0E31\u0E19\u0E15\u0E48\u0E2D\u0E21\u0E32 \u0E13 \u0E1B\u0E23\u0E30\u0E15\u0E39\u0E40\u0E21\u0E37\u0E2D\u0E07"
+    - 7 days later at the gate
     delayDialogueBox: 1
     delayBackground: 1
     responses: []
@@ -1390,10 +1356,9 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: f89349d4988d96a44a2b745ce861be67, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E40\u0E2A\u0E1A\u0E35\u0E22\u0E07\u0E41\u0E25\u0E30\u0E02\u0E2D\u0E07\u0E08\u0E33\u0E40\u0E1B\u0E47\u0E19\u0E17\u0E38\u0E01\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E44\u0E14\u0E49\u0E40\u0E15\u0E23\u0E35\u0E22\u0E21\u0E2D\u0E22\u0E39\u0E48\u0E43\u0E19\u0E41\u0E2B\u0E27\u0E19\u0E40\u0E27\u0E17\u0E21\u0E19\u0E15\u0E4C\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19\u0E40\u0E23\u0E35\u0E22\u0E1A\u0E23\u0E49\u0E2D\u0E22\u0E41\u0E25\u0E49\u0E27\u0E02\u0E2D\u0E23\u0E31\u0E1A
-      \u0E17\u0E48\u0E32\u0E19\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E0A\u0E35\u0E27\u0E34\u0E15\u0E14\u0E49\u0E27\u0E22\u0E40\u0E2A\u0E1A\u0E35\u0E22\u0E07\u0E17\u0E35\u0E48\u0E40\u0E23\u0E32\u0E40\u0E15\u0E23\u0E35\u0E22\u0E21\u0E43\u0E2B\u0E49\u0E44\u0E14\u0E49\u0E19\u0E32\u0E19\u0E16\u0E36\u0E07
-      4 \u0E40\u0E14\u0E37\u0E2D\u0E19\u0E40\u0E25\u0E22\u0E02\u0E2D\u0E23\u0E31\u0E1A\""
-    - "\"\u0E17\u0E48\u0E32\u0E19\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E25\u0E48\u0E32\u0E2A\u0E31\u0E15\u0E27\u0E4C\u0E1B\u0E48\u0E32\u0E44\u0E14\u0E49\u0E14\u0E49\u0E27\u0E22\u0E02\u0E2D\u0E23\u0E31\u0E1A\""
+    - "\u201CAll the supplies and necessities are already prepared in your magic
+      ring. You can live on the supplies we have prepared for you for up to 4 months.\u201D"
+    - "\u201CYou can also hunt wild animals.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1401,8 +1366,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: dd0c8e82e650e0f44985347d69530b10, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E02\u0E2D\u0E1A\u0E43\u0E08\u0E19\u0E30 \u0E09\u0E31\u0E19\u0E08\u0E30\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08
-      \u0E09\u0E31\u0E19\u0E08\u0E30\u0E01\u0E25\u0E31\u0E1A\u0E1A\u0E49\u0E32\u0E19!\""
+    - "\u201CThank you. I will succeed. I will go home!\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1410,8 +1374,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 5019e150089fc5e47baffcc95348d874, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E41\u0E25\u0E30\u0E19\u0E35\u0E48\u0E04\u0E37\u0E2D\u0E14\u0E32\u0E1A\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19
-      \u0E42\u0E1B\u0E23\u0E14\u0E23\u0E31\u0E01\u0E29\u0E32\u0E15\u0E31\u0E27\""
+    - "\u201CAnd here is your sword. Please take care of yourself\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1419,7 +1382,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 1ada34183043a1043819d63d4e4c5dcf, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E04\u0E23\u0E31\u0E1A \u0E41\u0E25\u0E49\u0E27\u0E40\u0E08\u0E2D\u0E01\u0E31\u0E19\u0E04\u0E23\u0E31\u0E1A\""
+    - "\u201CYes, see you later.\u201C"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1427,7 +1390,7 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 103c50af9f147044ea8bd02d213b22f8, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\"\u0E02\u0E2D\u0E43\u0E2B\u0E49\u0E21\u0E35\u0E0A\u0E31\u0E22\u0E17\u0E48\u0E32\u0E19\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32!!!\""
+    - "\u201DGood luck, the brave!!!\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
