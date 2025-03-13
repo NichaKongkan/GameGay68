@@ -15,7 +15,7 @@ public class MainMenu : MonoBehaviour
     }
 
     private void ResetMonsterStatus() {
-        string[] allMonsterIDs = { "A", "B", "C" }; // รหัสของมอนสเตอร์ทั้งหมด
+        string[] allMonsterIDs = { "A", "B", "C", "D", "E", "F" }; // รหัสของมอนสเตอร์ทั้งหมด
         foreach (string id in allMonsterIDs) {
             PlayerPrefs.SetInt("isWin_" + id, 0);
         }
