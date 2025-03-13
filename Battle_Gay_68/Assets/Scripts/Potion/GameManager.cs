@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
 
         if ((PlayerPrefs.GetInt("isWin_" + puzzleID) == 1 || moves == 0) && Input.GetKeyDown(KeyCode.Space))
         {
-            SceneManager.LoadScene(sceneToGo);  
+            SceneManager.LoadScene(sceneToGo);
         }
 
         CheckAllMonstersIsDead();
@@ -65,37 +65,59 @@ public class GameManager : MonoBehaviour
 
         if (points >= goal)
         {
-            PlayerPrefs.SetInt("isWin_" + puzzleID, 1); 
+            PlayerPrefs.SetInt("isWin_" + puzzleID, 1);
             PlayerPrefs.Save();
 
             backgroundPanel.SetActive(true);
             victoryPanel.SetActive(true);
             PotionBoard.Instance.potionParent.SetActive(false);
+
+            // 🔹 หากชนะ Boss ให้ไปฉาก WinBoss
+            if (puzzleID == $"Boss_{currentWorld}")
+            {
+                SceneManager.LoadScene($"WinBoss{currentWorld}");
+                currentWorld++;
+            }
             return;
         }
 
         if (moves == 0)
         {
-            PlayerPrefs.SetInt("isWin_" + puzzleID, 0); 
+            PlayerPrefs.SetInt("isWin_" + puzzleID, 0);
             PlayerPrefs.Save();
 
             backgroundPanel.SetActive(true);
             losePanel.SetActive(true);
             PotionBoard.Instance.potionParent.SetActive(false);
 
-            // 🔹 กลับไป World ปัจจุบันเมื่อแพ้
-            SceneManager.LoadScene($"World{currentWorld}");
+            // 🔹 หากแพ้ Boss ให้กลับไป World ที่เหมาะสม
+            if (puzzleID == $"Boss_{currentWorld}")
+            {
+                SceneManager.LoadScene($"World{currentWorld}");
+            }
+            else
+            {
+                SceneManager.LoadScene($"World{currentWorld}");
+            }
+
             return;
         }
     }
 
     private void CheckAllMonstersIsDead()
     {
+        // 🔹 ตรวจสอบว่าฉากปัจจุบันเป็น BeforeBoss หรือ Boss หรือไม่
+        string currentScene = SceneManager.GetActiveScene().name;
+        if (currentScene.Contains("BeforeBoss") || currentScene.Contains("Boss"))
+        {
+            return; // ไม่ต้องเช็กสถานะมอนสเตอร์ในฉากบอส
+        }
+
         foreach (string id in activeMonsters)
         {
             if (PlayerPrefs.GetInt("isWin_" + id) != 1)
             {
-                return;
+                return; // ยังมีมอนสเตอร์ที่ไม่ตาย
             }
         }
 
@@ -103,9 +125,7 @@ public class GameManager : MonoBehaviour
 
         if (worldMonsters.ContainsKey(currentWorld))
         {
-            activeMonsters = worldMonsters[currentWorld];
             SceneManager.LoadScene($"BeforeBoss{currentWorld}");
-            currentWorld++;
         }
         else
         {
@@ -113,11 +133,12 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
     private void ResetMonsterStatus()
     {
         foreach (string id in worldMonsters[currentWorld])
         {
-            PlayerPrefs.SetInt("isWin_" + id, 0); 
+            PlayerPrefs.SetInt("isWin_" + id, 0);
         }
         PlayerPrefs.Save();
         Debug.Log("All monsters in World " + currentWorld + " have been reset!");
