@@ -93,10 +93,26 @@ public class GameManager : MonoBehaviour
             // 🔹 หากแพ้ Boss ให้กลับไป World ที่เหมาะสม
             if (puzzleID == $"Boss_{currentWorld}")
             {
-                SceneManager.LoadScene($"World{currentWorld}");
-            }
-            else
-            {
+                if (currentWorld == 1)
+                {
+                    string[] allMonsterIDs = { "A", "B", "C"};
+                    foreach (string id in allMonsterIDs)
+                    {
+                        PlayerPrefs.SetInt("isWin_" + id, 0);
+                    }
+                    PlayerPrefs.Save();
+                    Debug.Log("Monsters(World1) have been reset!");
+                }
+                else if (currentWorld == 2)
+                {
+                    string[] allMonsterIDs = { "D", "E", "F"};
+                    foreach (string id in allMonsterIDs)
+                    {
+                        PlayerPrefs.SetInt("isWin_" + id, 0);
+                    }
+                    PlayerPrefs.Save();
+                    Debug.Log("Monsters(World2) have been reset!");
+                }
                 SceneManager.LoadScene($"World{currentWorld}");
             }
 

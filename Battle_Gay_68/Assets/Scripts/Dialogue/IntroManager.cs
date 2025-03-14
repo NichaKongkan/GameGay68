@@ -14,9 +14,19 @@ public class IntroManager : MonoBehaviour
         public string responseText;
         public int nextSceneIndex;
         public int relationshipChange;  //Respone Value
+        public BossID targetBoss;
+    }
+
+    public enum BossID
+    {
+        None,
+        Boss_1,
+        Boss_2,
+        Boss_3
     }
 
     public int relationshipWithBoss;
+    public TextMeshProUGUI relationshipText;
 
     [System.Serializable]
     public class SceneData
@@ -52,9 +62,14 @@ public class IntroManager : MonoBehaviour
 
     void Start()
     {
+        GameStatus.relationshipWithBoss = PlayerPrefs.GetInt("RelationshipWithBoss", 0);
+        UpdateRelationshipText();  // ✅ เพิ่มบรรทัดนี้
+        Debug.Log($"Relationship Start: {GameStatus.relationshipWithBoss}");
+
         typewriterEffect = GetComponent<TypewriterEffect>();
         ShowScene(0);
     }
+
 
     void Update()
     {
@@ -205,7 +220,8 @@ public class IntroManager : MonoBehaviour
             buttonText.fontSize = 120;
 
             Button button = buttonObj.GetComponent<Button>();
-            button.onClick.AddListener(() => SelectResponse(response.nextSceneIndex));
+            button.onClick.AddListener(() => SelectResponse(response));
+
         }
 
         responsePanel.SetActive(true);  // ✅ เปิดหลังจากเซ็ตค่าเสร็จ
@@ -213,13 +229,25 @@ public class IntroManager : MonoBehaviour
     }
 
 
-    void SelectResponse(int nextSceneIndex)
+    public void SelectResponse(Response response)
     {
-        //Fix Error
-        //relationshipWithBoss += response.relationshipChange;
+        if (response.targetBoss != BossID.None)
+        {
+            string bossKey = "RelationshipWith" + response.targetBoss.ToString();
+            int currentRelationship = PlayerPrefs.GetInt(bossKey, 0);
+            int newRelationship = currentRelationship + response.relationshipChange;
+
+            PlayerPrefs.SetInt(bossKey, newRelationship);
+            PlayerPrefs.Save();
+
+            UpdateRelationshipText();  // ✅ เพิ่มบรรทัดนี้เพื่ออัปเดตค่าใน UI
+            Debug.Log($"{response.targetBoss} relationship increased by {response.relationshipChange}. New value: {newRelationship}");
+        }
+
         responsePanel.SetActive(false);
-        ShowScene(nextSceneIndex);
+        ShowScene(response.nextSceneIndex);
     }
+
 
     void ShowDialogueBox()
     {
@@ -230,4 +258,17 @@ public class IntroManager : MonoBehaviour
         }
         dialogueCanvasGroup.alpha = 1;
     }
+
+    void UpdateRelationshipText()
+    {
+        string text = $"Boss 1: {PlayerPrefs.GetInt("RelationshipWithBoss_Boss_1", 0)}\n" +
+                      $"Boss 2: {PlayerPrefs.GetInt("RelationshipWithBoss_Boss_2", 0)}\n" +
+                      $"Boss 3: {PlayerPrefs.GetInt("RelationshipWithBoss_Boss_3", 0)}";
+
+        if (relationshipText != null)
+        {
+            relationshipText.text = text;
+        }
+    }
+
 }
