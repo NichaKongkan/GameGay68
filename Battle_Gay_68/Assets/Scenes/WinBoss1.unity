@@ -1036,6 +1036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   relationshipWithBoss: 0
+  relationshipText: {fileID: 0}
   sceneToGo: World2
   dialogueCanvasGroup: {fileID: 1582410654}
   backgroundImage: {fileID: 75903987}
@@ -1122,10 +1123,12 @@ MonoBehaviour:
     - responseText: "\u201CNo, I must rely on them to get back to my world.\u201D"
       nextSceneIndex: 9
       relationshipChange: 2
+      targetBoss: 1
     - responseText: "\u201CWho would want to join the demons who want to destroy
         the world? I must protect them to return to my world.\u201D"
       nextSceneIndex: 9
       relationshipChange: 0
+      targetBoss: 1
     endSceneImmediately: 0
   - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
     videoClip: {fileID: 0}
@@ -1180,12 +1183,15 @@ MonoBehaviour:
     - responseText: Kill to take the crysta
       nextSceneIndex: 15
       relationshipChange: 0
+      targetBoss: 1
     - responseText: Let the demon lord escape
       nextSceneIndex: 18
       relationshipChange: 3
+      targetBoss: 1
     - responseText: Use the item in the ring to trap him in the orb
       nextSceneIndex: 21
       relationshipChange: 5
+      targetBoss: 1
     endSceneImmediately: 0
   - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
     videoClip: {fileID: 0}
