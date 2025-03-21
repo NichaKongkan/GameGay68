@@ -1037,13 +1037,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   relationshipWithBoss: 0
   relationshipText: {fileID: 0}
-  sceneToGo: World2
+  sceneToGo: chooseEnding
   dialogueCanvasGroup: {fileID: 1582410654}
   backgroundImage: {fileID: 75903987}
   videoPlayer: {fileID: 318588649}
   dialogueText: {fileID: 2006132461}
   scenes:
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: b550a48783b46a74fa528bf48ae9bd18, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201CKill me, I'm defeated.\u201D"
@@ -1051,7 +1051,7 @@ MonoBehaviour:
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: fa7e7fb8920433140bddd9282a7547d2, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201CNo, I don't even know you yet.\u201D"
@@ -1059,7 +1059,7 @@ MonoBehaviour:
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: b550a48783b46a74fa528bf48ae9bd18, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - ??
@@ -1069,7 +1069,7 @@ MonoBehaviour:
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: fa7e7fb8920433140bddd9282a7547d2, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201CDon't say that. You were born and you had to choose your life by yourself.\u201D"
@@ -1092,7 +1092,7 @@ MonoBehaviour:
       relationshipChange: 0
       targetBoss: 3
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: b550a48783b46a74fa528bf48ae9bd18, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201CNonsense. I am Armagedrath, the Demon Lord of collapse. I was born with
@@ -1101,7 +1101,7 @@ MonoBehaviour:
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: fa7e7fb8920433140bddd9282a7547d2, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u2026"
@@ -1122,7 +1122,7 @@ MonoBehaviour:
       relationshipChange: 3
       targetBoss: 3
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: fa7e7fb8920433140bddd9282a7547d2, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201CI will follow your wishes.\u201D"
@@ -1138,7 +1138,7 @@ MonoBehaviour:
     delayBackground: 0
     responses: []
     endSceneImmediately: 1
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: fa7e7fb8920433140bddd9282a7547d2, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201CLet me ask you something. Do you want to try going to other places?
@@ -1148,7 +1148,7 @@ MonoBehaviour:
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: b550a48783b46a74fa528bf48ae9bd18, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u2026"
@@ -1164,7 +1164,7 @@ MonoBehaviour:
     delayBackground: 0
     responses: []
     endSceneImmediately: 1
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: fa7e7fb8920433140bddd9282a7547d2, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201CI think you should keep living and try to find the meaning of life.\u201D"
@@ -1175,7 +1175,7 @@ MonoBehaviour:
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: b550a48783b46a74fa528bf48ae9bd18, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u2026"
