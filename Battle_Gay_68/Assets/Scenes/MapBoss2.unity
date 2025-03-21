@@ -39608,7 +39608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0967e6581fbb7784194747b7cf5095df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Sample2
+  sceneToLoad: BeforeBoss2
   sceneTransitionName: WEntry
 --- !u!61 &166603788
 BoxCollider2D:
@@ -40181,7 +40181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0967e6581fbb7784194747b7cf5095df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Sample2
+  sceneToLoad: BeforeBoss2
   sceneTransitionName: WEntry
 --- !u!61 &409500439
 BoxCollider2D:
@@ -89008,7 +89008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0967e6581fbb7784194747b7cf5095df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Sample2
+  sceneToLoad: BeforeBoss2
   sceneTransitionName: WEntry
 --- !u!61 &1897603417
 BoxCollider2D:
@@ -90197,7 +90197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0967e6581fbb7784194747b7cf5095df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Sample2
+  sceneToLoad: BeforeBoss2
   sceneTransitionName: WEntry
 --- !u!1 &7563775951088395313
 GameObject:
