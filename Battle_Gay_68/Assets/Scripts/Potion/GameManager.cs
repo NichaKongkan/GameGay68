@@ -75,6 +75,7 @@ public class GameManager : MonoBehaviour
             // 🔹 หากชนะ Boss ให้ไปฉาก WinBoss
             if (puzzleID == $"Boss_{currentWorld}")
             {
+                Debug.Log("Go to WinBoss" + currentWorld);
                 SceneManager.LoadScene($"WinBoss{currentWorld}");
                 currentWorld++;
             }

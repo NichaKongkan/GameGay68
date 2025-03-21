@@ -1047,23 +1047,15 @@ MonoBehaviour:
     delayBackground: 1
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: cd4fcee4d67696445bb33759c9f7fbd6, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - 
-    delayDialogueBox: 0
-    delayBackground: 0
+    delayDialogueBox: 1
+    delayBackground: 1
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - 
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 118876b2288f7454a9d6ad8ad38fe07c, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201CAh, the scent from the Forest of Darkness. You've defeated Barthazell.\u201D"
@@ -1071,7 +1063,7 @@ MonoBehaviour:
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 72fcf1e05f460ef46aebb7d43cd84984, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201CSo, you've finally appeared, the second demon lord!\u201D"
@@ -1079,7 +1071,7 @@ MonoBehaviour:
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 118876b2288f7454a9d6ad8ad38fe07c, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201CYes, that's right. My name is Verethus. I am the Demon Lord of Hunger.\u201D"
@@ -1089,7 +1081,7 @@ MonoBehaviour:
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 72fcf1e05f460ef46aebb7d43cd84984, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201CWith all that you say, you must be quite skilled, especially with your
@@ -1098,7 +1090,7 @@ MonoBehaviour:
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 118876b2288f7454a9d6ad8ad38fe07c, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201CYou!!\u201D"
@@ -1108,7 +1100,7 @@ MonoBehaviour:
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 72fcf1e05f460ef46aebb7d43cd84984, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - "\u201CBring it on!\u201D"
