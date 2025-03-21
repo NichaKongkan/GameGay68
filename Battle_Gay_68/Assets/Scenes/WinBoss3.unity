@@ -1046,220 +1046,145 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - 
+    - "\u201CKill me, I'm defeated.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: aaed432f81989354595f48fbe14b3e6b, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - 
+    - "\u201CNo, I don't even know you yet.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201CUgh... Why... is a lowly brave like you... able to fight me? Ugh...\u201D"
+    - ??
+    - "\u201CWhy should we know each other when our fate is that one of us will lose
+      and leave each other?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201CThe power of people who want to come back home.\u201D"
-    - "\u201CYou're like One class period that I have to endure and struggle through
-      Until it's time to go home.\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201CI\u2026 don\u2019t understand. Is that all?\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201CDon't look down on me. I fought with anger. I'm suddenly dragged into
-      something.\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201CHuh, those stupid humans. Has little power, but is ambitious, so must
-      rely on others by force.\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201C...\u201D"
-    - '[That''s true.]'
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201CYou... ugh, come join me, destroy those ignorant non-magicals, and rule
-      their fertile land with me.\u201D"
+    - "\u201CDon't say that. You were born and you had to choose your life by yourself.\u201D"
+    - "\u201CBut there are times when you can't choose, like me right now. But soon
+      I'll be able to go back to my own life.\u201D"
+    - "\u201CYou too, now you have a choice.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses:
-    - responseText: "\u201CNo, I must rely on them to get back to my world.\u201D"
-      nextSceneIndex: 9
+    - responseText: "\u201CChoose the life you want\u201D"
+      nextSceneIndex: 4
       relationshipChange: 2
-      targetBoss: 1
-    - responseText: "\u201CWho would want to join the demons who want to destroy
-        the world? I must protect them to return to my world.\u201D"
-      nextSceneIndex: 9
+      targetBoss: 3
+    - responseText: "\u201CChoose to fight against fate like me\u201D"
+      nextSceneIndex: 4
+      relationshipChange: 2
+      targetBoss: 3
+    - responseText: "\u201CChoose your own path\u201D"
+      nextSceneIndex: 4
       relationshipChange: 0
-      targetBoss: 1
+      targetBoss: 3
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201CHuh.. You believe those idiots?\u201D"
+    - "\u201CNonsense. I am Armagedrath, the Demon Lord of collapse. I was born with
+      a sense of killing. Other than that, I have no other desires.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201CIt\u2026 is the only way I can believe it.\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201CYou can trust me. Do you think magic that can defy the nature of the
-      world can be used often?\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201C... They said it requires waiting.\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201CNever mind. You already believe them. I will say something you won't
-      believe. Only the end can tell you whether the outcome is good or not.\u201D"
-    - "\u201CAlright, do as you will with me.\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201C...\u201D"
+    - "\u2026"
+    - "\u201CThen I\u2026 \u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses:
-    - responseText: Kill to take the crysta
-      nextSceneIndex: 15
+    - responseText: Kill him
+      nextSceneIndex: 6
       relationshipChange: 0
-      targetBoss: 1
-    - responseText: Let the demon lord escape
-      nextSceneIndex: 18
-      relationshipChange: 3
-      targetBoss: 1
-    - responseText: Use the item in the ring to trap him in the orb
-      nextSceneIndex: 21
+      targetBoss: 3
+    - responseText: Keep him in a orb
+      nextSceneIndex: 8
       relationshipChange: 5
-      targetBoss: 1
+      targetBoss: 3
+    - responseText: Let him go
+      nextSceneIndex: 11
+      relationshipChange: 3
+      targetBoss: 3
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201CI'm sorry\u201D"
+    - "\u201CI will follow your wishes.\u201D"
+    - "\u201CNice to meet you, and goodbye.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
-    dialogues:
-    - "\u201CAargh!\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 0}
-    videoClip: {fileID: 0}
-    dialogues:
-    - 
+    dialogues: []
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 1
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201C...\u201D"
-    - "\u201CYou can go.\u201D"
+    - "\u201CLet me ask you something. Do you want to try going to other places?
+      Are you tired of these cold places?\u201D"
+    - "\u201CI have a choice for you. Would you like to explore this world with me?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201CWith such a soft heart, you can't be the brave they need.\u201D"
+    - "\u2026"
+    - "\u201CI will try\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 0}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
-    dialogues:
-    - 
+    dialogues: []
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 1
-  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201CHuh, you intend to keep me as your plaything? I take back what I said,
-      you are quite a formidable brave\u201D"
+    - "\u201CI think you should keep living and try to find the meaning of life.\u201D"
+    - "\u201CIn the end, if you want to come back and do the same thing again, that's
+      fine.\u201D"
+    - "\u201CBye\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201CStay quiet.\u201D"
+    - "\u2026"
+    - "\u201CSee you again, brave.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 0}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - 
