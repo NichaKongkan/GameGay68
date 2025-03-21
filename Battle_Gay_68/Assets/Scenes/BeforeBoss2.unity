@@ -1031,7 +1031,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0db437f7cf7b32b46a85ec74eb33b4a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToGo: MapBoss1
+  relationshipWithBoss: 0
+  relationshipText: {fileID: 0}
+  sceneToGo: Boss2
   dialogueCanvasGroup: {fileID: 1582410654}
   backgroundImage: {fileID: 75903987}
   videoPlayer: {fileID: 318588649}
@@ -1045,68 +1047,10 @@ MonoBehaviour:
     delayBackground: 1
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: cebf0e3dca57a264b9a93d02a2358338, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
     - 
-    delayDialogueBox: 1
-    delayBackground: 1
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: aaed432f81989354595f48fbe14b3e6b, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - 
-    delayDialogueBox: 1
-    delayBackground: 1
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201CHmm, are you the brave of the magicless people?\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - '!!'
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201CYou've killed quite a few monsters under my control.\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201CYou! You are the demon lord.\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 61527c5de39a3594ba021d81957d56c7, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201CYou're smart. I'm the demon lord of blood, Bathazell.\u201D"
-    - "\u201COh brave man, sacrifice your blood. Come be the power that nourishes
-      my life!!\u201D"
-    delayDialogueBox: 0
-    delayBackground: 0
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: ae6ab4b41c0b01646b989b3d30ecad20, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201CWho would give in to you?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1122,7 +1066,59 @@ MonoBehaviour:
   - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - 
+    - "\u201CAh, the scent from the Forest of Darkness. You've defeated Barthazell.\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CSo, you've finally appeared, the second demon lord!\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CYes, that's right. My name is Verethus. I am the Demon Lord of Hunger.\u201D"
+    - "\u201CYou've traveled this far. I assume you're prepared to die here? Do you
+      know that in the past 150 years, no one has ever gotten past me?\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CWith all that you say, you must be quite skilled, especially with your
+      mouth.\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CYou!!\u201D"
+    - "\u2026"
+    - "\u201CCome on, I shall show a child like you myself.\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CBring it on!\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+    videoClip: {fileID: 0}
+    dialogues: []
     delayDialogueBox: 0
     delayBackground: 0
     responses: []

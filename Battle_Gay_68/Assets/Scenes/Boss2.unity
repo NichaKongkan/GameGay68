@@ -285,13 +285,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de7754cdfd51efd44a6468fe650acdc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleID: C
-  sceneToGo: World1
+  puzzleID: Boss_1
+  sceneToGo: WinBoss1
   backgroundPanel: {fileID: 1112727682}
   victoryPanel: {fileID: 1805020308}
   losePanel: {fileID: 435723635}
   goal: 1
-  moves: 5
+  moves: 10
   points: 0
   pointsTxt: {fileID: 2070165120}
   movesTxt: {fileID: 1108604777}
@@ -609,7 +609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 705562391}
   SFXSource: {fileID: 523774062}
-  background: {fileID: 8300000, guid: 99e628da446a2e24fb2ce354c6c0b442, type: 3}
+  background: {fileID: 8300000, guid: cb956d5764231a7448604917265c326c, type: 3}
   death: {fileID: 0}
   checkpoint: {fileID: 0}
   wallTouch: {fileID: 0}
@@ -944,7 +944,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 99e628da446a2e24fb2ce354c6c0b442, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cb956d5764231a7448604917265c326c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.485
   m_Pitch: 1
@@ -1314,7 +1314,7 @@ Transform:
   m_GameObject: {fileID: 891227159}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.9, y: -2.18, z: 0}
+  m_LocalPosition: {x: -7.56, y: -1.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1444,7 +1444,7 @@ Transform:
   m_GameObject: {fileID: 925666875}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.4599996, y: -3.48, z: 0}
+  m_LocalPosition: {x: -6.12, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1952,7 +1952,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: db57f3fe88e31314485ef3e3d4b8d382, type: 3}
+  m_Sprite: {fileID: 21300000, guid: daec4c2777e636f42ab3ad6a87e6ea6e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2074,7 +2074,7 @@ Transform:
   m_GameObject: {fileID: 1190075855}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.41, y: -3.42, z: -0.06910014}
+  m_LocalPosition: {x: -7.18, y: -3.37, z: -0.06910014}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2528,6 +2528,51 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.4513917, y: 1.4716616, z: -0.08930682}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1510031713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1510031715}
+  - component: {fileID: 1510031714}
+  m_Layer: 0
+  m_Name: AreaExitEn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1510031714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510031713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b7595c97fa90da4c8ec49a60a5300c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionName: WEntry
+--- !u!4 &1510031715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510031713}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.19, y: -3.39, z: -0.06410023}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3058,7 +3103,7 @@ Transform:
   m_GameObject: {fileID: 1677864605}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.94, y: -4.48, z: 0}
+  m_LocalPosition: {x: -7.6, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3199,7 +3244,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Slime 3
+  m_text: Boss1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3400,7 +3445,7 @@ Transform:
   m_GameObject: {fileID: 2013697493}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.12, y: -3.5, z: 0}
+  m_LocalPosition: {x: -8.07, y: -3.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3557,3 +3602,4 @@ SceneRoots:
   - {fileID: 891227162}
   - {fileID: 2013697496}
   - {fileID: 925666878}
+  - {fileID: 1510031715}

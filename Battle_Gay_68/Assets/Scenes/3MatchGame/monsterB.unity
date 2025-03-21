@@ -290,7 +290,7 @@ MonoBehaviour:
   backgroundPanel: {fileID: 1112727682}
   victoryPanel: {fileID: 1805020308}
   losePanel: {fileID: 435723635}
-  goal: 9
+  goal: 1
   moves: 5
   points: 0
   pointsTxt: {fileID: 2070165120}
