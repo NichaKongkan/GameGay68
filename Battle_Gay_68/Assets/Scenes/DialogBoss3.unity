@@ -1086,8 +1086,97 @@ MonoBehaviour:
   scenes:
   - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
     videoClip: {fileID: 0}
+    dialogues: []
+    delayDialogueBox: 1
+    delayBackground: 1
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 351af268f31d4ca43affe337c031e5ba, type: 3}
+    videoClip: {fileID: 0}
+    dialogues: []
+    delayDialogueBox: 1
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: e1e131296f3cda04bad83dec42592957, type: 3}
+    videoClip: {fileID: 0}
     dialogues:
-    - 
+    - "\u201CAlmost gone, I almost died.\u201D"
+    - "\u201CIf I had arrived here a minute later, I would have died.\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: fa7e7fb8920433140bddd9282a7547d2, type: 3}
+    videoClip: {fileID: 0}
+    dialogues: []
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: fa7e7fb8920433140bddd9282a7547d2, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CAhh!! Dragon wings!\u201D"
+    - "\u201CYou are another demon lord, right?\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: b550a48783b46a74fa528bf48ae9bd18, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u2026"
+    - "\u201CHow did you get here?\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: fa7e7fb8920433140bddd9282a7547d2, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CSeriously? I ran, but it was quite difficult. It was cold here, the
+      ground was slippery, and along the way, the oxygen was so low that I could
+      die.\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: b550a48783b46a74fa528bf48ae9bd18, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201Cunfortunate\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: fa7e7fb8920433140bddd9282a7547d2, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CHuh???\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: b550a48783b46a74fa528bf48ae9bd18, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CBecause you're going to die anyway.\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: fa7e7fb8920433140bddd9282a7547d2, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CWait a minute. I haven't gotten over my tiredness yet.!\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+    videoClip: {fileID: 0}
+    dialogues: []
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
@@ -1145,7 +1234,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
