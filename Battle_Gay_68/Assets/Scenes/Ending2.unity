@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   relationshipWithBoss: 0
   relationshipText: {fileID: 0}
-  sceneToGo: MapBoss1
+  sceneToGo: Main Menu
   dialogueCanvasGroup: {fileID: 1582410654}
   backgroundImage: {fileID: 75903987}
   videoPlayer: {fileID: 318588649}
