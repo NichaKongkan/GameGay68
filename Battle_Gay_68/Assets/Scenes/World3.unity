@@ -184419,6 +184419,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5759155087582167543, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: fad9b43144db6074da67a7b030289e10, type: 2}
     - target: {fileID: 451687678924200621, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: startingHealth
       value: 3
@@ -184469,8 +184473,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4100582833648874897, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8663849155380250188, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 585831129, guid: 0128b1cde7633b345ad61e02c4c962f1, type: 3}
     - target: {fileID: 8755219728532920893, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: knockBackTime
       value: 0.1
@@ -185099,6 +185107,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5759155087582167543, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: fad9b43144db6074da67a7b030289e10, type: 2}
     - target: {fileID: 451687678924200621, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: currentHealth
       value: 0
@@ -185153,8 +185165,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4100582833648874897, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8663849155380250188, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 585831129, guid: 0128b1cde7633b345ad61e02c4c962f1, type: 3}
     - target: {fileID: 8755219728532920893, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: knockBackTime
       value: 0.1
@@ -185971,6 +185987,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5759155087582167543, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: fad9b43144db6074da67a7b030289e10, type: 2}
     - target: {fileID: 451687678924200621, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: startingHealth
       value: 3
@@ -186021,8 +186041,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4100582833648874897, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8663849155380250188, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 585831129, guid: 0128b1cde7633b345ad61e02c4c962f1, type: 3}
     - target: {fileID: 8755219728532920893, guid: f1d5376a898cd9c448fb0bd804e25608, type: 3}
       propertyPath: knockBackTime
       value: 0.1
