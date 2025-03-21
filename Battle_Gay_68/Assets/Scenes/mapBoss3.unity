@@ -58029,6 +58029,7 @@ MonoBehaviour:
   timeRemaining: 55
   gameOverPanel: {fileID: 1736000954}
   restartButton: {fileID: 309006859}
+  screenFade: {fileID: 1257680739}
 --- !u!4 &172665230
 Transform:
   m_ObjectHideFlags: 0
@@ -58477,6 +58478,7 @@ MonoBehaviour:
   timeRemaining: 10
   gameOverPanel: {fileID: 0}
   restartButton: {fileID: 0}
+  screenFade: {fileID: 0}
 --- !u!114 &309006859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144606,7 +144608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IsGlobal: 1
-  priority: 0.36
+  priority: 3.6
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 8c915767ee862d3459c7667d57d82e4c, type: 2}
@@ -145465,6 +145467,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1257680738}
   - {fileID: 1736000955}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -146105,6 +146108,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1760900296831642931, guid: 5083cd1402122754e844dd2f8cbfd2c8, type: 3}
   m_PrefabInstance: {fileID: 1248505621}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1257680737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1257680738}
+  - component: {fileID: 1257680740}
+  - component: {fileID: 1257680739}
+  m_Layer: 5
+  m_Name: ScreenFade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1257680738
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257680737}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 988938866}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1257680739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257680737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1257680740
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257680737}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1282890215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -147530,7 +147608,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1736000955
 RectTransform:
   m_ObjectHideFlags: 0
@@ -147567,6 +147645,7 @@ MonoBehaviour:
   timeRemaining: 10
   gameOverPanel: {fileID: 0}
   restartButton: {fileID: 0}
+  screenFade: {fileID: 0}
 --- !u!114 &1736000957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147580,7 +147659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.99607843}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

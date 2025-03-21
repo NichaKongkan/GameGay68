@@ -4,19 +4,22 @@ using UnityEngine.SceneManagement;
 
 public class GameTimer : MonoBehaviour
 {
-    public float timeRemaining = 10f; // ตั้งเวลาเป็น 60 วินาที (สามารถเปลี่ยนได้)
-    public GameObject gameOverPanel; // ตัวแปรเก็บ UI Game Over
-    public Button restartButton; // ปุ่มกดกลับไปหน้าแรก
+    public float timeRemaining = 60f; // ตั้งเวลาเริ่มต้น (วินาที)
+    public GameObject gameOverPanel; // UI แจ้งว่าตาย
+    public Button restartButton; // ปุ่มกลับไป Scene อื่น
+    public Image screenFade; // UI Panel สีดำที่ค่อยๆ มืดขึ้น
 
     private bool isGameOver = false;
+    private float maxFadeAlpha = 0.8f; // ความเข้มสูงสุดของขอบดำ
 
     void Start()
     {
-        // ซ่อน UI Game Over ตอนเริ่มเกม
         if (gameOverPanel != null)
-            gameOverPanel.SetActive(false);
+            gameOverPanel.SetActive(false); // ปิด UI ตายก่อนเริ่มเกม
+        
+        if (screenFade != null)
+            screenFade.color = new Color(0, 0, 0, 0); // ตั้งให้โปร่งใสตอนเริ่ม
 
-        // เชื่อม Event ปุ่มกับฟังก์ชัน RestartGame
         if (restartButton != null)
             restartButton.onClick.AddListener(RestartGame);
     }
@@ -30,6 +33,18 @@ public class GameTimer : MonoBehaviour
             {
                 GameOver();
             }
+
+            // ทำให้ขอบจอมืดขึ้นเรื่อย ๆ
+            UpdateScreenFade();
+        }
+    }
+
+    void UpdateScreenFade()
+    {
+        if (screenFade != null)
+        {
+            float fadeAmount = Mathf.Clamp01(1 - (timeRemaining / 45f)); // คำนวณความเข้มของขอบดำ
+            screenFade.color = new Color(255, 0, 0, fadeAmount * maxFadeAlpha);
         }
     }
 
@@ -37,7 +52,7 @@ public class GameTimer : MonoBehaviour
     {
         isGameOver = true;
         if (gameOverPanel != null)
-            gameOverPanel.SetActive(true); // เปิด UI Game Over
+            gameOverPanel.SetActive(true); // แสดง UI "คุณตายแล้ว"
     }
 
     void RestartGame()
