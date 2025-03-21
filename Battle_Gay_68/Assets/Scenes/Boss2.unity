@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puzzleID: Boss_1
-  sceneToGo: WinBoss1
+  sceneToGo: WinBoss2
   backgroundPanel: {fileID: 1112727682}
   victoryPanel: {fileID: 1805020308}
   losePanel: {fileID: 435723635}

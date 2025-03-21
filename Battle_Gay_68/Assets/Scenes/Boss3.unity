@@ -285,8 +285,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de7754cdfd51efd44a6468fe650acdc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleID: Boss_1
-  sceneToGo: WinBoss1
+  puzzleID: Boss_3
+  sceneToGo: WinBoss3
   backgroundPanel: {fileID: 1112727682}
   victoryPanel: {fileID: 1805020308}
   losePanel: {fileID: 435723635}
