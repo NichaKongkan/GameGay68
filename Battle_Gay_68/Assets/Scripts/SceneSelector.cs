@@ -26,8 +26,7 @@ public class SceneSelector : MonoBehaviour
         }
         else
         {
-            Debug.Log("ไม่มีค่าความสัมพันธ์ถึงเกณฑ์ที่กำหนด");
-            SceneManager.LoadScene("Main Menu");
+            SceneManager.LoadScene("Ending2");
         }
     }
 }
