@@ -113,6 +113,16 @@ public class GameManager : MonoBehaviour
                     PlayerPrefs.Save();
                     Debug.Log("Monsters(World2) have been reset!");
                 }
+                else if (currentWorld == 3)
+                {
+                    string[] allMonsterIDs = { "G", "H", "I"};
+                    foreach (string id in allMonsterIDs)
+                    {
+                        PlayerPrefs.SetInt("isWin_" + id, 0);
+                    }
+                    PlayerPrefs.Save();
+                    Debug.Log("Monsters(World3) have been reset!");
+                }
                 SceneManager.LoadScene($"World{currentWorld}");
             }
 

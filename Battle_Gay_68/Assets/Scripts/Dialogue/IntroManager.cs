@@ -238,6 +238,7 @@ public class IntroManager : MonoBehaviour
             int newRelationship = currentRelationship + response.relationshipChange;
 
             PlayerPrefs.SetInt(bossKey, newRelationship);
+            Debug.Log("bossKey: "+ bossKey + " ,newRelationship:"+newRelationship);
             PlayerPrefs.Save();
 
             UpdateRelationshipText();  // ✅ เพิ่มบรรทัดนี้เพื่ออัปเดตค่าใน UI

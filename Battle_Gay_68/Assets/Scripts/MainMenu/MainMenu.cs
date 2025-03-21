@@ -29,10 +29,10 @@ public class MainMenu : MonoBehaviour
 
         foreach (string boss in allBossIDs)
         {
-            PlayerPrefs.SetInt("Relation_" + boss, 0);
+            PlayerPrefs.SetInt("RelationshipWith" + boss, 0);
+            Debug.Log(boss + " to 0");
         }
 
-        PlayerPrefs.SetInt("RelationshipWithBoss", 0);
 
         PlayerPrefs.Save();
         Debug.Log("Monsters have been reset!");
