@@ -50,6 +50,39 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BeforeBoss2.unity
     guid: adb39453319cb8c4fa4faad06d5c9ccc
+  - enabled: 1
+    path: Assets/Scenes/MapBoss2.unity
+    guid: 259927bb6f6d534429de06543a17b9d6
+  - enabled: 1
+    path: Assets/Scenes/Boss2.unity
+    guid: 79261f0b053e84c4b8d4c7743ab6b644
+  - enabled: 1
+    path: Assets/Scenes/WinBoss2.unity
+    guid: 944798b0d72ce584d9d9532b8ff51bcf
+  - enabled: 1
+    path: Assets/Scenes/World3.unity
+    guid: 2844ddfa72915684b90c15247db970e5
+  - enabled: 1
+    path: Assets/Scenes/3MatchGame/monsterG.unity
+    guid: 9d49c2b6dd1ae0c4f98b022bdd2d4c81
+  - enabled: 1
+    path: Assets/Scenes/3MatchGame/monsterH.unity
+    guid: 8a41e5998a7e5594db2b35637e895f45
+  - enabled: 1
+    path: Assets/Scenes/3MatchGame/monsterI.unity
+    guid: 3a0e524828745b5408d945e59e08f754
+  - enabled: 1
+    path: Assets/Scenes/BeforeBoss3.unity
+    guid: 7c02ffc335ba8214483d264c99c83dae
+  - enabled: 1
+    path: Assets/Scenes/MapBoss3.unity
+    guid: 576c68ae4289e6c44a81f2203e7614c2
+  - enabled: 1
+    path: Assets/Scenes/Boss3.unity
+    guid: 5013c36d565f7644999e1b6553de777c
+  - enabled: 1
+    path: Assets/Scenes/WinBoss3.unity
+    guid: 85018c75ce9ace940ace94a9e0447cc8
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 25936d5291b305048bd67badabadc7ef, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 1f63a52a0af90494bac11b1a84bb674d, type: 2}

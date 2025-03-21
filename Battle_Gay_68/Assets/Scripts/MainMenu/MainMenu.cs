@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
 
     private void ResetMonsterStatus()
     {
-        string[] allMonsterIDs = { "A", "B", "C", "D", "E", "F" }; // รหัสของมอนสเตอร์ทั้งหมด
+        string[] allMonsterIDs = { "A", "B", "C", "D", "E", "F", "G", "H", "I" }; // รหัสของมอนสเตอร์ทั้งหมด
         string[] allBossIDs = { "Boss_1", "Boss_2", "Boss_3" };
 
         foreach (string id in allMonsterIDs)
