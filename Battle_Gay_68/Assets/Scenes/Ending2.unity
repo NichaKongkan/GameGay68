@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   relationshipWithBoss: 0
   relationshipText: {fileID: 0}
-  sceneToGo: Main Menu
+  sceneToGo: MapBoss1
   dialogueCanvasGroup: {fileID: 1582410654}
   backgroundImage: {fileID: 75903987}
   videoPlayer: {fileID: 318588649}
@@ -1047,90 +1047,123 @@ MonoBehaviour:
     delayBackground: 1
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 8a5bfaa5a762cb84ca81ba144927ceeb, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 05658349e284fcb4089f27551daa09a4, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - At the Pineite Kingdom
-    delayDialogueBox: 0
-    delayBackground: 1
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 12263b74fb3f88b41899afb99704b6b4, type: 3}
-    videoClip: {fileID: 0}
-    dialogues:
-    - "\u201CThe brave man has returned.\u201D"
+    - at a certain place
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 13de973fab121ec478e40120a200a394, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 416e7a177b37322449bb86fef8f3a91f, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201CGood morning\u201D"
+    - "\u201CYou're spacing out again.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: d975d8cc88af18749942dd4d48fd6791, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 3ef8bee0fd728564ebeb2ba6452e4fcb, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201CWelcome back, brave. You've really been in trouble. \u201D"
+    - "\u201COh, I'm sorry. I was just thinking about something.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 10d4519a19e5fe64eae89d74fcdcfdbf, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 482ba524ca8d3d246a9f975a7376e4aa, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201CNot much.\u201D"
-    - "\u201CThen when can I return to my original world?\u201D"
+    - "\u201CDo you want to go back to your world?\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: d975d8cc88af18749942dd4d48fd6791, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 77fe491efa429b74eac139ff447956a4, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201CIn two weeks, everything will be ready.\u201D"
-    - "\u201CIn the meantime, please relax and travel around our kingdom.\u201D"
+    - "\u201CNo, just thinking about the past when I was there.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 10d4519a19e5fe64eae89d74fcdcfdbf, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 482ba524ca8d3d246a9f975a7376e4aa, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201COh Thank you\u201D"
+    - "\u201CIf you want to go back, please tell us.\u201D"
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
-    videoClip: {fileID: 0}
-    dialogues: []
-    delayDialogueBox: 1
-    delayBackground: 1
-    responses: []
-    endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 811ed832eb88474468c6ce8115de55b0, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - 2 week later
-    delayDialogueBox: 1
+    - "\u201CYou know that we are ready to do everything for your happiness.\u201D"
+    delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: b9e67858cb47e42448a34858fe51f057, type: 3}
     videoClip: {fileID: 0}
     dialogues:
-    - "\u201CFarewell, brave man! May you be happy.\u201D"
-    - "\u201Cyes\u201D"
+    - "\u201CUh-huh, I know. But you know what I'm like right now, I'm happy. I just
+      don't have any games to play.\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 416e7a177b37322449bb86fef8f3a91f, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CIf you say so, that's good.\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 2f1d06c0ec899d74994dade7a047a76a, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201COf course, what could be happier than being with me?\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 8a2aa3461ef5641459df2284aaecd3dc, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CThis guy is really bragging. Because he\u2019s with me.\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: e63a06d32c25f6540ac49ad707a276f6, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CWhy are we arguing? Just looking at it, you know that it must be me,
+      right?\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 27a95ae804350804bac1cf64af6916da, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CHuh? What did you say!!\u201D"
+    delayDialogueBox: 0
+    delayBackground: 0
+    responses: []
+    endSceneImmediately: 0
+  - backgroundImage: {fileID: 21300000, guid: 5f6c23c7dba11d1409ca5ddd1b0f662a, type: 3}
+    videoClip: {fileID: 0}
+    dialogues:
+    - "\u201CHahaha\u201D"
+    - "\u201CThis is not bad.\u201D"
     - end
     delayDialogueBox: 0
     delayBackground: 0
     responses: []
     endSceneImmediately: 0
-  - backgroundImage: {fileID: 21300000, guid: 4634380e10237ea49a4c36f3984e0d53, type: 3}
+  - backgroundImage: {fileID: 21300000, guid: 5f6c23c7dba11d1409ca5ddd1b0f662a, type: 3}
     videoClip: {fileID: 0}
     dialogues: []
     delayDialogueBox: 0

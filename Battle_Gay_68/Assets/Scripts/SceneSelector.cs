@@ -27,7 +27,7 @@ public class SceneSelector : MonoBehaviour
         else
         {
             Debug.Log("ไม่มีค่าความสัมพันธ์ถึงเกณฑ์ที่กำหนด");
-            SceneManager.LoadScene("Main Menu"); // ซีนเริ่มต้นถ้ายังไม่มีค่าครบตามเงื่อนไข
+            SceneManager.LoadScene("Main Menu");
         }
     }
 }
