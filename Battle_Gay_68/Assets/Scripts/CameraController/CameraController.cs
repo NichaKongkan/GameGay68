@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Cinemachine;
@@ -24,17 +25,25 @@ public class CameraController : Singleton<CameraController>
 
     public void SetPlayerCameraFollow()
     {
-        Debug.Log("Camera setup for new scene.");
         cinemachineVirtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
 
-        if (cinemachineVirtualCamera != null && PlayerController.Instance != null)
+        if (cinemachineVirtualCamera == null)
         {
-            cinemachineVirtualCamera.Follow = PlayerController.Instance.transform;
-            Debug.Log("Camera is now following the player.");
+            Debug.LogWarning("Camera not found!");
+            return;
         }
-        else
+
+        StartCoroutine(WaitForPlayer());
+    }
+
+    IEnumerator WaitForPlayer()
+    {
+        while (PlayerController.Instance == null)
         {
-            Debug.LogWarning("Camera or Player not found!");
+            yield return null;
         }
+
+        cinemachineVirtualCamera.Follow = PlayerController.Instance.transform;
+        Debug.Log("Camera is now following the player.");
     }
 }

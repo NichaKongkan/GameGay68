@@ -235,7 +235,7 @@ public class PotionBoard : MonoBehaviour
     private void SpawnPotionAtTop(int x)
     {
         int index = FindIndexOfLowestNull(x);
-        int locationToMoveTo = 8 - index;
+        int locationToMoveTo = height - index;
         Debug.Log("About to spawn a potion, ideally i'd like to put it in the index of: " + index);
         //get a random potion
         int randomIndex = Random.Range(0, potionPrefabs.Length);
